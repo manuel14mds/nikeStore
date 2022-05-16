@@ -1,0 +1,23 @@
+
+.cardHomeContainer{
+    background-color: rgb(208, 208, 208);
+}
+.new{
+    padding: 1rem;
+    display: flex;
+}
+.new h2{
+    background: rgb(206, 249, 141);
+    font-family: var(--title-font);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.cardContainer{
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    justify-content: initial;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem 0rem 1rem 1rem;
+}

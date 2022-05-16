@@ -1,0 +1,15 @@
+
+.footer{
+    padding: 3rem 1rem;
+    margin: 0 !important;
+    font-family: sans-serif;
+}
+.footer .name{
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+.footer .warning{
+    color: white;
+    font-size: 0.7rem;
+}

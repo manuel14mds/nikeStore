@@ -1,0 +1,13 @@
+.category{
+    padding: 1rem 0rem;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.category .card{
+    max-width: 11rem;
+    min-width: 5rem;
+}

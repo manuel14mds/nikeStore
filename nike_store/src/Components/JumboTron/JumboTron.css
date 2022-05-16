@@ -1,0 +1,21 @@
+.jumbo{
+    background-color: gray;
+    margin-left: 0;
+    margin-right: 0 !important;
+}
+.jumbo .img{
+    height: 200px;
+    background-image: url('../../../assets/images/imgHome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbo .tittle{
+    padding: 1.3rem 3rem;
+    text-align: start;
+    height: 200px;
+}
+.jumbo .tittle h1{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}

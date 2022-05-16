@@ -1,0 +1,22 @@
+.cardItem{
+    max-width: 12rem;
+    min-width: 10rem;
+    max-height: 22rem;
+    border-radius: 5px;
+}
+
+.cardItem .card-body .card-title{
+    font-size: 1rem;
+}
+.cardItem .card-body .card-text{
+    color: rgb(206, 249, 141);
+    font-size: 0.7rem;
+}
+.cardItem .card-body .botones{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardItem .card-body .botones .icon{
+    color: white;
+}

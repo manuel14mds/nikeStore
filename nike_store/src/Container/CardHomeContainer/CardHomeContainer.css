@@ -1,6 +1,7 @@
 
 .cardHomeContainer{
     background-color: rgb(208, 208, 208);
+    max-width: 100vw;
 }
 .new{
     padding: 1rem;

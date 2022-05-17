@@ -1,0 +1,36 @@
+.cardItem{
+    max-width: 9rem;
+    min-width: 8rem;
+    max-height: 20rem;
+    border-radius: 10px;
+}
+
+.cardItem .card-body .card-title{
+    font-size: 0.8rem;
+}
+.cardItem .card-body .card-text{
+    color: rgb(206, 249, 141);
+    font-size: 0.6rem;
+}
+.cardItem .card-body .botones{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardItem .card-body .botones .btn{
+    font-size: 0.7rem !important;
+    
+}
+.cardItem .card-body .botones .icon{
+    font-size: 0.8rem !important;
+    color: white;
+}
+
+
+@media (min-width: 570px) {
+
+    .cardItem{
+        max-width: 11rem;
+        max-height: 22rem;
+    }
+}

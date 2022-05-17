@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import './CategoryHome.css'
 
 const CategoryHome = () => {
@@ -14,21 +15,21 @@ const CategoryHome = () => {
                 <img src={men} className="card-img-top" alt="MEN" />
                 <div className="card-body">
                     <h5 className="card-title">Men</h5>
-                    <a href="#" className="btn btn-dark">See more</a>
+                    <NavLink to='/itemListCont/men' className="btn btn-dark">See more</NavLink>
                 </div>
             </div>
             <div className="card" >
                 <img src={women} className="card-img-top" alt="WOMEN" />
                 <div className="card-body">
                     <h5 className="card-title">Women</h5>
-                    <a href="#" className="btn btn-dark">See more</a>
+                    <NavLink to='/itemListCont/women' className="btn btn-dark">See more</NavLink>
                 </div>
             </div>
             <div className="card" >
                 <img src={children} className="card-img-top" alt="Children" />
                 <div className="card-body">
                     <h5 className="card-title">Children</h5>
-                    <a href="#" className="btn btn-dark">See more</a>
+                    <NavLink to='/itemListCont/children' className="btn btn-dark">See more</NavLink>
                 </div>
             </div>
 
@@ -36,7 +37,7 @@ const CategoryHome = () => {
                 <img src={shoe} className="card-img-top" alt="Shoe" />
                 <div className="card-body">
                     <h5 className="card-title">Shoe</h5>
-                    <a href="#" className="btn btn-dark">See more</a>
+                    <NavLink to='/itemListCont/shoe' className="btn btn-dark">See more</NavLink>
                 </div>
             </div>
             
@@ -44,14 +45,14 @@ const CategoryHome = () => {
                 <img src={clothing} className="card-img-top" alt="Clothing" />
                 <div className="card-body">
                     <h5 className="card-title">Clothing</h5>
-                    <a href="#" className="btn btn-dark">See more</a>
+                    <NavLink to='/itemListCont/cloting' className="btn btn-dark">See more</NavLink>
                 </div>
             </div>
             <div className="card" >
                 <img src={accessory} className="card-img-top" alt="Accessories" />
                 <div className="card-body">
                     <h5 className="card-title">Accessories</h5>
-                    <a href="#" className="btn btn-dark">See more</a>
+                    <NavLink to='/itemListCont/acce' className="btn btn-dark">See more</NavLink>
                 </div>
             </div>
         </div>

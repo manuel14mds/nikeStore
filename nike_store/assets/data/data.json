@@ -309,23 +309,23 @@
         "genero":"men", "tallas":["Única"], "precio":"59,99",
         "colores":["gris", "negro"], "nombre":"Nike Sportswear Essentials", 
         "imagenes":[
-            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3ceacdc2-2e83-4c22-b38c-0d42f40873f4/sportswear-essentials-mochila-KmJsfD.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cfac5ebc-8dba-40e7-a1c2-a21e81fed3ef/sportswear-essentials-mochila-KmJsfD.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3ceacdc2-2e83-4c22-b38c-0d42f40873f4/sportswear-essentials-mochila-KmJsfD.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2fc8b975-a134-4587-97de-f45ac2e2d157/sportswear-essentials-mochila-KmJsfD.png"
         ], "descripcion":"Con un compartimento grande para el portátil, un portateléfono y un compartimento principal espacioso, esta mochila se ha diseñado para llevar tus cosas. El ribete tonal destaca la confección, mientras que los detalles repelentes al agua ayudan a proteger tus cosas incluso con mal tiempo. Este producto se ha confeccionado con, al menos, un 50 % de fibras de poliéster reciclado."
     }, 
     {
-        "id":"39", "categoria":"accessory", "stock":"7", "new":"False",
+        "id":"40", "categoria":"accessory", "stock":"7", "new":"False",
         "genero":"unisex", "tallas":["Única"], "precio":"27,99 ",
         "colores":["rosa", "azul", "negro"], "nombre":"Nike Heritage", 
         "imagenes":[
-            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b4b71a31-9363-48b0-a314-68d8eaa5fc6d/heritage-2-mochila-ndMcpP.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/31e8eb1d-7f1f-4d1a-b50f-f1fac68a7634/heritage-2-mochila-ndMcpP.png",
+            "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b4b71a31-9363-48b0-a314-68d8eaa5fc6d/heritage-2-mochila-ndMcpP.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/14c2d3b1-0ce9-4a7c-9482-4783265676b2/heritage-2-mochila-ndMcpP.png"
         ], "descripcion":"La mochila Nike Heritage ofrece espacio para toda tu equipación. El amplio compartimento principal cuenta con una funda para mantener los portátiles de hasta 15 pulgadas al alcance de la mano. Dos bolsillos para accessorys con cremallera para mantener la equipación organizada y al alcance de la mano. Este producto se ha confeccionado con, al menos, un 65 % de fibras de poliéster reciclado."
     }, 
     {
-        "id":"39", "categoria":"accessory", "stock":"7", "new":"False",
+        "id":"41", "categoria":"accessory", "stock":"7", "new":"False",
         "genero":"unisex", "tallas":["Única"], "precio":"11,99",
         "colores":["negro"], "nombre":"Nike Brasilia 9,5", 
         "imagenes":[
@@ -335,7 +335,7 @@
         ], "descripcion":"El saco de gimnasia Nike Brasilia cuenta con un diseño ligero y minimalista con una parte superior abierta para meter tu equipación de entrenamiento vayas donde vayas. Las correas para los hombros funcionan también como cordón para proteger tus cosas. Este producto se ha confeccionado con, al menos, un 65 % de fibras de poliéster reciclado."
     }, 
     {
-        "id":"39", "categoria":"accessory", "stock":"7", "new":"False",
+        "id":"42", "categoria":"accessory", "stock":"7", "new":"False",
         "genero":"men", "tallas":["Única"], "precio":"27,99",
         "colores":["blanco", "negro"], "nombre":"Jordan 12", 
         "imagenes":[
@@ -345,7 +345,7 @@
         ], "descripcion":"La bolsa tipo bandolera Air Jordan te permite guardar las cosas pequeñas que importan mientras te desplazas."
     }, 
     {
-        "id":"40", "categoria":"accessory", "stock":"7", "new":"False",
+        "id":"43", "categoria":"accessory", "stock":"7", "new":"True",
         "genero":"children", "tallas":["Única"], "precio":"19,99",
         "colores":["azul", "negro"], "nombre":"Nike Brasilia JDI", 
         "imagenes":[
@@ -355,7 +355,7 @@
         ], "descripcion":"La mochila Nike Brasilia JDI tiene el tamaño perfecto para guardar los básicos. Cuenta con bolsillos con cremallera, espacio para guardar la botella de agua y correas cómodas para transportarla con facilidad. El estampado animal moteado es de todo menos básico."
     }, 
     {
-        "id":"41", "categoria":"accessory", "stock":"7", "new":"True",
+        "id":"44", "categoria":"accessory", "stock":"7", "new":"False",
         "genero":"children", "tallas":["Única"], "precio":"13,99 ",
         "colores":["blanco", "negro"], "nombre":"Nike Heritage86", 
         "imagenes":[

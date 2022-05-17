@@ -1,0 +1,42 @@
+.titleList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+}
+
+.titleList .imgTittleList{
+    background-image: url('https://static.nike.com/a/images/w_960,c_limit,f_auto/a22e6fb8-1759-46ba-be84-80dd9296b855/give-fresh-air-air-max-day-2022.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100vw;
+}
+
+.titleList .title{
+    display: grid ;
+    place-items: center;
+}
+
+.titleList .title h1{
+    width: 100vw;
+    font-family: var(--title-font);
+    font-size: 4rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 500px) {
+    .titleList{
+        flex-direction: row;
+    }
+    .titleList .imgTittleList{
+        width: 50vw;
+    }
+    .titleList .title h1{
+        width: 50vw;
+    }
+}

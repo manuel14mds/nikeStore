@@ -1,0 +1,25 @@
+.favWidget{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.favWidget .WidgetIco{
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+.favWidget .WidgetNum{
+    
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgb(206, 249, 141);
+
+}

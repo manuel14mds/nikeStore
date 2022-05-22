@@ -157,47 +157,6 @@
 }
 
 
-.itemDetail .info .quantCont{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    font-family: var(--title-font);
-    
-}
-.itemDetail .info .quantCont .counter{
-    display: flex;
-    align-items: center;
-    margin: 0px 10px;
-}
-.itemDetail .info .quantCont .counter .bg-dark{
-    padding: 5px;
-    margin: 0px;
-}
-.itemDetail .info .quantCont .counter div{
-    margin: 0px 7px;
-}
-
-
-.itemDetail .info .detailButton{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5px;
-    margin: 5px 0px;
-}
-.itemDetail .info .detailButton .btnCart{
-    max-height: 60px;
-    max-width: 500px;
-    min-height: 60px;
-    min-width: 200px;
-}
-.itemDetail .info .detailButton .btnFav{
-    max-height: 60px;
-    max-width: 500px;
-    min-height: 40px;
-    min-width: 200px;
-}
-
 .itemDetail .info .overView{
     margin-top: 1rem;
 }

@@ -1,11 +1,16 @@
-import {Link} from 'react-router-dom'
-import {faBagShopping} from '@fortawesome/free-solid-svg-icons'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBagShopping } from '@fortawesome/free-solid-svg-icons'
+
+import "./CartWidget.css"
+
 const CartWidget = () => {
     const cartIco = <FontAwesomeIcon icon={faBagShopping} />
     return (
-        <>
-            <p>{cartIco}</p>
-        </>
+        <div className='cardWidget'>
+            <p className='WidgetIco'>{cartIco}</p>
+            <p className='WidgetNum'>15</p>
+        </div>
     )
 }
 

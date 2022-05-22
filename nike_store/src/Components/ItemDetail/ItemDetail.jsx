@@ -1,17 +1,12 @@
 import { Button, Spinner } from 'react-bootstrap'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBagShopping, faHeart } from '@fortawesome/free-solid-svg-icons'
-
 import './ItemDetail.css'
 import '../../DataBase/filter.js'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
+import Interchange from '../Interchange/interchange'
 
-
-const heartIco = <FontAwesomeIcon icon={faHeart} />
-const cartIco = <FontAwesomeIcon icon={faBagShopping} />
 
 function concat(list){
     let string = ""
@@ -22,15 +17,24 @@ function concat(list){
 }
 
 
-
-
 const ItemDetail = () => {
     
     const{itemId} = useParams()
+    const [quantity, setQuantity] = useState(0)
+    
     const [product, setProduct] = useState({})
-    //let product={}
+    
     const [loading, setLoading] = useState(true)
     
+    
+    
+    function onAdd(count){
+        setQuantity(count)
+        /* alert(`You add ${count} products to cart`) */
+    
+    }
+
+
     useEffect(() => {
         setLoading(true)
         setTimeout(()=>{
@@ -38,8 +42,6 @@ const ItemDetail = () => {
             .then(response => response.json())
             .then(data => {
                 
-                //product = data.find(element => element.id === itemId)
-                //console.log(product)
                 setProduct(data.find(element => element.id === itemId))
                 
             })
@@ -105,20 +107,9 @@ const ItemDetail = () => {
                             <p className='listGender'>{product.genero}</p>
                         </div>
 
-                        <div className='quantCont'>
-                            <div className="title">quantity</div>
-                            <div className="counter">
-                                <Button className='bg-dark' href="">-</Button>
-                                <div>1</div>
-                                <Button className='bg-dark' href="">+</Button>
-                            </div>
-                            <div className="title">stock: {product.stock}</div>
-                        </div>
+                        {/* <ItemCount stock={product.stock} onAdd={cart}  /> */}
 
-                        <div className='detailButton'>
-                            <Button className='btnCart' variant="dark">Add Cart {cartIco}</Button>
-                            <Button className='btnFav' variant="light">Add Favorite {heartIco}</Button>
-                        </div>
+                        <Interchange product={product} onAdd = {onAdd}/>
 
                         <div className='overView'>
                             <h2>overview</h2>

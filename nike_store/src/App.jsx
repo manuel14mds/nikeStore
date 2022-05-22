@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { createContext, useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
 
 
 import './App.css'
@@ -12,23 +13,30 @@ import ItemDetailContainer from './Container/ItemDetailContainer/ItemDetailConta
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navigate } from 'react-router-dom';
+import { CartContext } from './context/CartContext'
+
+export const contexApp = createContext()
+
 
 function App() {
-    const [count, setCount] = useState(0)
+    let string='ropa'
 
     return (
         <BrowserRouter>
             <div className="App">
                 <NavBar />
-                <Routes>
-                    <Route path='/' element={<HomeContentContainer />}/>
-                    <Route path='/cart' element={<Cart />}/>
-                    <Route path='/itemListCont/:filter' element={<ItemListContainer />}/>
-                    <Route path='/itemDetailContainer/:itemId' element={<ItemDetailContainer />}/>
+                
+                    <Routes>
+                        <Route path='/' element={<HomeContentContainer />}/>
+                        <Route path='/cart' element={<Cart />}/>
+                        <Route path='/itemListCont/:filter' element={<ItemListContainer />}/>
+                        <Route path='/itemDetailContainer/:itemId' element={<ItemDetailContainer />}/>
 
-                    <Route path='/*' element={<Navigate to='/' replace/> }/>
-                    
-                </Routes>
+                        <Route path='/*' element={<Navigate to='/' replace/> }/>
+                        
+                    </Routes>
+                
+
                 <Footer />
             </div>
         </BrowserRouter>

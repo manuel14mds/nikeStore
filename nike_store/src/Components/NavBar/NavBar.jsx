@@ -7,6 +7,8 @@ import { NavLink } from "react-router-dom"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBagShopping, faHeart } from '@fortawesome/free-solid-svg-icons'
+import CartWidget from "../CartWidget/CartWidget"
+import FavWidget from "../FavWidget/FavWidget"
 
 const heartIco = <FontAwesomeIcon icon={faHeart} />
 const cartIco = <FontAwesomeIcon icon={faBagShopping} />
@@ -38,8 +40,8 @@ const NavBar = () => {
                         </NavDropdown>
                     </Nav>
                     <Nav>
-                            <Nav.Link as={NavLink} to='/fav'  activeclassname='currentCategory' className='text-white'>{heartIco}</Nav.Link>
-                            <Nav.Link as={NavLink} to='/cart' activeclassname='currentCategory' className='text-white'>{cartIco}</Nav.Link>
+                            <Nav.Link as={NavLink} to='/fav'  activeclassname='currentCategory' className='text-white'><FavWidget/></Nav.Link>
+                            <Nav.Link as={NavLink} to='/cart' activeclassname='currentCategory' className='text-white'><CartWidget/></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

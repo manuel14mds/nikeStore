@@ -6,6 +6,8 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import Interchange from '../Interchange/interchange'
+import { useCartContext } from '../../Context/CartContext'
+
 
 
 function concat(list){
@@ -20,18 +22,15 @@ function concat(list){
 const ItemDetail = () => {
     
     const{itemId} = useParams()
-    const [quantity, setQuantity] = useState(0)
     
     const [product, setProduct] = useState({})
     
     const [loading, setLoading] = useState(true)
     
+    const {addToCart}= useCartContext()
     
-    
-    function onAdd(count){
-        setQuantity(count)
-        /* alert(`You add ${count} products to cart`) */
-    
+    function onAdd(count){        
+        addToCart({...product, count})
     }
 
 

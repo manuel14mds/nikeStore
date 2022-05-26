@@ -16,8 +16,8 @@
     height: 25px;
     border-radius: 15px;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    margin: 0px 0px 0px 5px;
+    padding: 2px;
     color: rgb(206, 249, 141);
 
 }

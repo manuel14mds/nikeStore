@@ -1,0 +1,47 @@
+.cartContainer .cart .itemContainer .item{
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: 5px 0px;
+
+}
+.cartContainer .cart .itemContainer .item .itemDetail{
+
+    height: 80px;
+    margin: 0;
+    padding: 5px;
+}
+.cartContainer .cart .itemContainer .item .itemDetail .img{
+    height: 70px;
+    width: 70px;
+}
+.cartContainer .cart .itemContainer .item .itemDetail .img img{
+    height: 70px;
+}
+.cartContainer .cart .itemContainer .item .itemDetail .info{
+    font-size: small;
+    padding: 0;
+    height: fit-content;
+}
+.cartContainer .cart .itemContainer .item .itemDetail .info p{
+    margin: 10px;
+}
+
+.cartContainer .cart .itemContainer .item .itemBtns{
+
+    height: fit-content;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cartContainer .cart .itemContainer .item .itemBtns .counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cartContainer .cart .itemContainer .item .itemBtns button{
+    margin-top: 2px;
+}

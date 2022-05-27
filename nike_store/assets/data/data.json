@@ -1,7 +1,7 @@
 [
     {
         "id":"10", "categoria":"shoe", "stock":"10", "new":"False",
-        "genero":"men", "tallas":["28", "30", "32" ], "precio":"159,99",
+        "genero":"men", "tallas":["28", "30", "32" ], "precio":"159.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike React Infinity Run Flyknit 3", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5a28e397-d083-4398-b0d9-a9911ae22018/react-infinity-run-flyknit-3-zapatillas-de-running-carretera-Pp5hlk.png",
@@ -11,7 +11,7 @@
     }, 
     {
         "id":"11", "categoria":"shoe", "stock":"15", "new":"True",
-        "genero":"men", "tallas":["28", "30", "32" ], "precio":"119,99",
+        "genero":"men", "tallas":["28", "30", "32" ], "precio":"119.99",
         "colores":["blanco", "rojo", "gris"], "nombre":"Nike Air Zoom Pegasus 39", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8b3be65e-eb8c-47b6-9813-1160a4400ec1/air-zoom-pegasus-39-zapatillas-de-running-asfalto-JNVFbf.png",
@@ -21,7 +21,7 @@
     }, 
     {
         "id":"12", "categoria":"shoe", "stock":"20", "new":"False",
-        "genero":"unisex", "tallas":["28", "30", "32" ], "precio":"299,99",
+        "genero":"unisex", "tallas":["28", "30", "32" ], "precio":"299.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike Zoom Alphafly Next Nature", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/92b73dd3-1810-43f6-8552-9553526825b4/zoom-alphafly-next-nature-zapatillas-de-competicion-carretera-3mk9g2.png",
@@ -31,7 +31,7 @@
     }, 
     {
         "id":"13", "categoria":"shoe", "stock":"7", "new":"True",
-        "genero":"men", "tallas":["28", "30", "32" ], "precio":"119,99",
+        "genero":"men", "tallas":["28", "30", "32" ], "precio":"119.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike ZoomX Vaporfly Next% 2", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1622d34a-b828-4483-a974-74ca66bfb8b5/zoomx-vaporfly-next-2-zapatillas-de-competicion-asfalto-821S4F.png",
@@ -44,7 +44,7 @@
 
     {
         "id":"14", "categoria":"shoe", "stock":"7", "new":"False",
-        "genero":"women", "tallas":["28", "30", "32" ], "precio":"124,99",
+        "genero":"women", "tallas":["28", "30", "32" ], "precio":"124.99",
         "colores":["blanco"], "nombre":"Nike Go FlyEase", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/86a3e932-e234-4145-8a33-7a38c671a25a/go-flyease-zapatillas-5fQ47m.png",
@@ -54,7 +54,7 @@
     }, 
     {
         "id":"15", "categoria":"shoe", "stock":"10", "new":"False",
-        "genero":"women", "tallas":["28", "30", "32" ], "precio":"129,99",
+        "genero":"women", "tallas":["28", "30", "32" ], "precio":"129.99",
         "colores":["rosa"], "nombre":"Be Kind", 
         "imagenes":[
             "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/c391759b-7fb3-44cc-8a36-6b6bf234c204/fecha-de-lanzamiento-de-las-air-force-1-low-be-kind-para-women-dr3100-001.jpg",
@@ -64,7 +64,7 @@
     }, 
     {
         "id":"16", "categoria":"shoe", "stock":"15", "new":"True",
-        "genero":"women", "tallas":["28", "30", "32" ], "precio":"149,99",
+        "genero":"women", "tallas":["28", "30", "32" ], "precio":"149.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike Air Max 90 SE", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/71b76b15-f9e4-4a0e-9654-a9f8dc373597/air-max-90-se-zapatillas-G1zFRR.png",
@@ -74,7 +74,7 @@
     }, 
     {
         "id":"17", "categoria":"shoe", "stock":"20", "new":"False",
-        "genero":"women", "tallas":["28", "30", "32" ], "precio":"149,99",
+        "genero":"women", "tallas":["28", "30", "32" ], "precio":"149.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike Air Max 270", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1b8e8e0e-acdd-429a-986c-24ccb2254d05/air-max-270-zapatillas-P0j2DN.png",
@@ -86,7 +86,7 @@
     
     {
         "id":"18", "categoria":"shoe", "stock":"7", "new":"False",
-        "genero":"children", "tallas":["18", "20", "23" ], "precio":"114,99",
+        "genero":"children", "tallas":["18", "20", "23" ], "precio":"114.99",
         "colores":["blanco", "gris", "negro"], "nombre":"Nike Air Max Motif", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b8dbb24c-b870-4eb4-8fcb-7127260d2bb6/air-max-motif-zapatillas-nino-a-K2rrj1.png",
@@ -96,7 +96,7 @@
     }, 
     {
         "id":"19", "categoria":"shoe", "stock":"20", "new":"True",
-        "genero":"children", "tallas":["18", "20", "23" ], "precio":"79,99",
+        "genero":"children", "tallas":["18", "20", "23" ], "precio":"79.99",
         "colores":["blanco", "rosa", "negro"], "nombre":"Nike Air Max Dawn", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b316607f-e2f9-4911-8fa6-f295cd9e6a7a/air-max-dawn-zapatillas-nino-a-pequeno-a-ZxBbnq.png",
@@ -106,7 +106,7 @@
     }, 
     {
         "id":"20", "categoria":"shoe", "stock":"10", "new":"False",
-        "genero":"children", "tallas":["18", "20", "23" ], "precio":"44,99",
+        "genero":"children", "tallas":["18", "20", "23" ], "precio":"44.99",
         "colores":["rosa", "azul", "negro"], "nombre":"Nike Flex Runner 2", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/60b481c7-6d94-4ff1-9136-1ab90d66680f/flex-runner-2-zapatillas-de-running-asfalto-nino-a-b2QZzh.png",
@@ -116,7 +116,7 @@
     }, 
     {
         "id":"21", "categoria":"shoe", "stock":"15", "new":"False",
-        "genero":"children", "tallas":["18", "17", "15" ], "precio":"64,99",
+        "genero":"children", "tallas":["18", "17", "15" ], "precio":"64.99",
         "colores":["blanco", "azul", "negro", "rosa"], "nombre":"Nike Air Max Dawn", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/17bc788f-a61c-44c5-9472-05947a03c4d6/air-max-dawn-zapatillas-e-0LhXxN.png",
@@ -126,7 +126,7 @@
     }, 
     {
         "id":"22", "categoria":"shoe", "stock":"7", "new":"False",
-        "genero":"children", "tallas":["18", "20", "23" ], "precio":"64,99",
+        "genero":"children", "tallas":["18", "20", "23" ], "precio":"64.99",
         "colores":["blanco", "colorido", "negro"], "nombre":"Nike Dynamo Go", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b8d3dd45-f790-4c62-b470-2d3e3975022b/dynamo-go-zapatillas-faciles-de-poner-y-quitar-nino-a-pequeno-a-qmfPzS.png",
@@ -139,7 +139,7 @@
     
     {
         "id":"23", "categoria":"clothing", "stock":"7", "new":"False",
-        "genero":"men", "tallas":["S", "M", "L" ], "precio":"119,99",
+        "genero":"men", "tallas":["S", "M", "L" ], "precio":"119.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike Sportswear Tech Fleece", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fd582d4f-954c-4a27-8609-cb6c3cd3b1d7/sportswear-tech-fleece-sudadera-con-capucha-con-cremallera-completa-4DQKFx.png",
@@ -149,7 +149,7 @@
     }, 
     {
         "id":"24", "categoria":"clothing", "stock":"15", "new":"False",
-        "genero":"men", "tallas":["S", "M", "L" ], "precio":"119,99",
+        "genero":"men", "tallas":["S", "M", "L" ], "precio":"119.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Jordan x Zion", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d8c0fbb6-ea28-4b06-aa6e-7763130fb251/jordan-zion-parte-de-arriba-con-cremallera-completa-JcGb5q.png",
@@ -159,7 +159,7 @@
     }, 
     {
         "id":"25", "categoria":"clothing", "stock":"20", "new":"True",
-        "genero":"men", "tallas":["S", "M", "L" ], "precio":"34,99",
+        "genero":"men", "tallas":["S", "M", "L" ], "precio":"34.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike Dri-FIT Strike", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/18b2ba7c-fed2-41e6-8089-c3d925ca4421/dri-fit-strike-camiseta-de-futbol-V06mcs.png",
@@ -169,7 +169,7 @@
     }, 
     {
         "id":"26", "categoria":"clothing", "stock":"10", "new":"False",
-        "genero":"men", "tallas":["S", "M", "L" ], "precio":"69,99",
+        "genero":"men", "tallas":["S", "M", "L" ], "precio":"69.99",
         "colores":["blanco", "azul", "negro"], "nombre":"NikeCourt Dri-FIT Slam", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fd26171b-b490-49ac-a1df-0feb3333c512/nikecourt-dri-fit-slam-pantalon-corto-de-tenis-2-en-1-h1GJWW.png",
@@ -179,7 +179,7 @@
     }, 
     {
         "id":"27", "categoria":"clothing", "stock":"7", "new":"False",
-        "genero":"men", "tallas":["S", "M", "L" ], "precio":"69,99",
+        "genero":"men", "tallas":["S", "M", "L" ], "precio":"69.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Jordan Essentials", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4ecc1d3f-46d8-4e55-ba84-35ef0eb02eb9/jordan-essentials-pantalon-de-calentamiento-v1FX2D.png",
@@ -192,7 +192,7 @@
 
     {
         "id":"28", "categoria":"clothing", "stock":"15", "new":"True",
-        "genero":"women", "tallas":["S", "M", "L" ], "precio":"47,99",
+        "genero":"women", "tallas":["S", "M", "L" ], "precio":"47.99",
         "colores":["blanco"], "nombre":"Nike Dri-FIT Alate Coverage", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/60f57467-8227-410a-9e66-5b6f07ab7629/dri-fit-alate-coverage-sujetador-deportivo-de-sujecion-ligera-con-almohadilla-HFChJl.png",
@@ -202,7 +202,7 @@
     }, 
     {
         "id":"29", "categoria":"clothing", "stock":"20", "new":"False",
-        "genero":"women", "tallas":["S", "M", "L" ], "precio":"104,99",
+        "genero":"women", "tallas":["S", "M", "L" ], "precio":"104.99",
         "colores":["negro"], "nombre":"Nike Sportswear Tech Fleece Windrunner", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d948def6-330b-4222-b9fe-db917024cf85/sportswear-tech-fleece-windrunner-sudadera-con-capucha-con-cremallera-completa-7kK8vl.png",
@@ -212,7 +212,7 @@
     }, 
     {
         "id":"30", "categoria":"clothing", "stock":"25", "new":"False",
-        "genero":"women", "tallas":["S", "M", "L" ], "precio":"49,99 ",
+        "genero":"women", "tallas":["S", "M", "L" ], "precio":"49.99",
         "colores":["rosa"], "nombre":"Nike Dri-FIT One Luxe", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d2659136-48d9-49bb-9cca-3eb23931956a/dri-fit-one-luxe-camiseta-de-tirantes-de-entrenamiento-cvnGD5.png",
@@ -222,7 +222,7 @@
     }, 
     {
         "id":"31", "categoria":"clothing", "stock":"10", "new":"False",
-        "genero":"women", "tallas":["S", "M", "L" ], "precio":"54,99",
+        "genero":"women", "tallas":["S", "M", "L" ], "precio":"54.99",
         "colores":["rosa"], "nombre":"Nike Sportswear Essential Collection", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4949ed02-5503-40e4-8443-275b09146a28/sportswear-essential-collection-pantalon-de-tejido-fleece-ZHpV9z.png",
@@ -232,7 +232,7 @@
     }, 
     {
         "id":"32", "categoria":"clothing", "stock":"7", "new":"True",
-        "genero":"women", "tallas":["S", "M", "L" ], "precio":"29,99 ",
+        "genero":"women", "tallas":["S", "M", "L" ], "precio":"29.99",
         "colores":["negro"], "nombre":"Nike Pro 365", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/aa093ad2-3f9d-4ea4-ab20-143d491ad043/pro-365-pantalon-corto-de-13-cm-bqXQPw.png",
@@ -244,7 +244,7 @@
 
     {
         "id":"33", "categoria":"clothing", "stock":"15", "new":"False",
-        "genero":"children", "tallas":["2T", "3T", "4T" ], "precio":"49,99 ",
+        "genero":"children", "tallas":["2T", "3T", "4T" ], "precio":"49.99",
         "colores":["rojo"], "nombre":"Nike chandal rojo", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0df56c4e-b713-41f3-ae47-56c5bcda2740/chandal-bblWJ3.png",
@@ -254,7 +254,7 @@
     }, 
     {
         "id":"34", "categoria":"clothing", "stock":"20", "new":"False",
-        "genero":"children", "tallas":["2T", "3T", "4T" ], "precio":"49,99",
+        "genero":"children", "tallas":["2T", "3T", "4T" ], "precio":"49.99",
         "colores":["rosa"], "nombre":"Nike chandal Rosa", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f8d6772b-d3e4-482d-ace4-d866ab6a4db3/chandal-dbgz1Q.png",
@@ -264,7 +264,7 @@
     }, 
     {
         "id":"35", "categoria":"clothing", "stock":"25", "new":"False",
-        "genero":"children", "tallas":["2T", "3T", "4T"], "precio":"44,99",
+        "genero":"children", "tallas":["2T", "3T", "4T"], "precio":"44.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike Conjunto rosa", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1f1bf553-80a0-4adb-84e4-db3e7ae17fe2/conjunto-de-sudadera-y-pantalon-XwGWDj.png",
@@ -274,7 +274,7 @@
     }, 
     {
         "id":"36", "categoria":"clothing", "stock":"10", "new":"True",
-        "genero":"children", "tallas":["XS", "S", "M" ], "precio":"34,99 ",
+        "genero":"children", "tallas":["XS", "S", "M" ], "precio":"34.99 ",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike Sportswear Club", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3e355b15-d3a7-4f67-843b-343be475e20c/sportswear-club-sudadera-de-chandal-nino-GWXDrH.png",
@@ -284,7 +284,7 @@
     }, 
     {
         "id":"37", "categoria":"clothing", "stock":"7", "new":"False",
-        "genero":"children", "tallas":["XS", "S", "M"], "precio":"44,99 ",
+        "genero":"children", "tallas":["XS", "S", "M"], "precio":"44.99 ",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike Sportswear", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/162657e4-760a-43b4-8162-59855431ae37/sportswear-sudadera-de-chandal-de-tejido-fleece-nino-3W45Gj.png",
@@ -296,7 +296,7 @@
 
     {
         "id":"38", "categoria":"accessory", "stock":"7", "new":"False",
-        "genero":"men", "tallas":["Única"], "precio":"79,99",
+        "genero":"men", "tallas":["Única"], "precio":"79.99",
         "colores":["negro"], "nombre":"Nike Utility Elite", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/i1-4356ff52-793f-441e-adbd-59524a61150c/utility-elite-mochila-de-entrenamiento-30jnXd.png",
@@ -306,7 +306,7 @@
     }, 
     {
         "id":"39", "categoria":"accessory", "stock":"7", "new":"True",
-        "genero":"men", "tallas":["Única"], "precio":"59,99",
+        "genero":"men", "tallas":["Única"], "precio":"59.99",
         "colores":["gris", "negro"], "nombre":"Nike Sportswear Essentials", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cfac5ebc-8dba-40e7-a1c2-a21e81fed3ef/sportswear-essentials-mochila-KmJsfD.png",
@@ -316,7 +316,7 @@
     }, 
     {
         "id":"40", "categoria":"accessory", "stock":"7", "new":"False",
-        "genero":"unisex", "tallas":["Única"], "precio":"27,99 ",
+        "genero":"unisex", "tallas":["Única"], "precio":"27.99 ",
         "colores":["rosa", "azul", "negro"], "nombre":"Nike Heritage", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/31e8eb1d-7f1f-4d1a-b50f-f1fac68a7634/heritage-2-mochila-ndMcpP.png",
@@ -326,7 +326,7 @@
     }, 
     {
         "id":"41", "categoria":"accessory", "stock":"7", "new":"False",
-        "genero":"unisex", "tallas":["Única"], "precio":"11,99",
+        "genero":"unisex", "tallas":["Única"], "precio":"11.99",
         "colores":["negro"], "nombre":"Nike Brasilia 9,5", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/6fc125a8-87c7-48ca-bc93-07e924012d6c/brasilia-95-saco-de-gimnasia-de-entrenamiento-vZDTMM.png",
@@ -336,7 +336,7 @@
     }, 
     {
         "id":"42", "categoria":"accessory", "stock":"7", "new":"False",
-        "genero":"men", "tallas":["Única"], "precio":"27,99",
+        "genero":"men", "tallas":["Única"], "precio":"27.99",
         "colores":["blanco", "negro"], "nombre":"Jordan 12", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ce821638-f1ef-42eb-b6ff-b66f745c1f01/jordan-bolsa-tipo-bandolera-t2TkFK.png",
@@ -346,7 +346,7 @@
     }, 
     {
         "id":"43", "categoria":"accessory", "stock":"7", "new":"True",
-        "genero":"children", "tallas":["Única"], "precio":"19,99",
+        "genero":"children", "tallas":["Única"], "precio":"19.99",
         "colores":["azul", "negro"], "nombre":"Nike Brasilia JDI", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/26dd4c96-bca1-46a3-9203-f5cdc22b681b/brasilia-jdi-mochila-mini-nino-a-ldqCP5.png",
@@ -356,7 +356,7 @@
     }, 
     {
         "id":"44", "categoria":"accessory", "stock":"7", "new":"False",
-        "genero":"children", "tallas":["Única"], "precio":"13,99 ",
+        "genero":"children", "tallas":["Única"], "precio":"13.99 ",
         "colores":["blanco", "negro"], "nombre":"Nike Heritage86", 
         "imagenes":[
             "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/v2z0y2bf0pn5lsymjrx0/heritage86-gorra-regulable-nino-a-QpVFhK.png",

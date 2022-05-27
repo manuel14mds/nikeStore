@@ -9,10 +9,20 @@ const CartWidget = () => {
     const cartIco = <FontAwesomeIcon icon={faBagShopping} />
     const{prodUnits}=useCartContext()
     return (
-        <div className='cardWidget'>
-            <p className='WidgetIco'>{cartIco}</p>
-            <p className='WidgetNum'>{prodUnits}</p>
-        </div>
+        <>
+            {
+                prodUnits ?
+                    <div className='cardWidget'>
+                        <p className='WidgetIco'>{cartIco}</p>
+                        <p className='WidgetNum'>{prodUnits}</p>
+                    </div>
+                    :
+                    <div className='cardWidget'>
+                        <p className='WidgetIco'>{cartIco}</p>
+                    </div>
+
+            }
+        </>
     )
 }
 

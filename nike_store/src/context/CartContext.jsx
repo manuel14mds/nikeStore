@@ -9,6 +9,16 @@ const CartContextProvider = ({ children }) => {
     //crear estados y funciones  globales
     const [cartList, setCartList] = useState([])
     const [prodUnits, setProdUnits] = useState(0)
+    const [totalCart, setTotalCart] = useState(0.0)
+
+    function total(){
+        let total= 0.0
+        for(const item of cartList){
+            total += parseFloat(item.precio) * item.count
+        }
+        setTotalCart(total)
+
+    }
 
     function addToCart(item) {
         if (cartList.length == 0) {
@@ -44,6 +54,7 @@ const CartContextProvider = ({ children }) => {
 
             }
         }
+        total()//actualiza la cantidad total
     }
 
     function deleteItem(id) {
@@ -55,43 +66,20 @@ const CartContextProvider = ({ children }) => {
         newCart.splice(index, 1)
 
         setCartList([...newCart])
-    }
 
-    /* function deleteItem(id) {
-        console.log("entro a deleteItem")
-        let newArray = []
-        for(const item of cartList){
-            if (item.id === id) {
-                setProdUnits(prodUnits-item.count)//descuento los productos del contador de productos
-                continue
-            }
-            newArray.push(item)
-        }
-        setCartList(newArray)
-    } */
+        total()
+    }
 
     function emptyCart() {
         setCartList([])
         setProdUnits(0)
+        setTotalCart(0.0)
     }
-    /* 
-        function unitsCounter(){
-            let count =0
-            if(cartList.length==0){
-                setProdUnits(0)
-            }else{
-                cartList.forEach(e=>{
-                    count += e.count
-                })
-                setProdUnits(count)
-            }
-            console.log(`contador: ${prodUnits}`)
-        } */
 
     return (
         <CartContext.Provider value={
             {
-                cartList, addToCart, emptyCart, prodUnits, deleteItem
+                cartList, addToCart, emptyCart, prodUnits, deleteItem, totalCart
             }}>
 
             {children}

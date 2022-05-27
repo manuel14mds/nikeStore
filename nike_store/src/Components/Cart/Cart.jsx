@@ -3,9 +3,10 @@ import './Cart.css'
 import { useCartContext } from '../../Context/CartContext'
 
 import ItemCart from '../ItemCart/ItemCart'
+import { useEffect } from 'react'
 
 const Cart = () => {
-    const { cartList, emptyCart } = useCartContext()
+    const { cartList, emptyCart, totalCart } = useCartContext()
 
     return (
         <>
@@ -20,7 +21,7 @@ const Cart = () => {
 
                     <div className="total col-md-4">
                         <h3>total</h3>
-                        <p>999,99 €</p>
+                        <p>{totalCart} €</p>
                         <button className='btn btn-lg bg-primary'>Shop Now</button>
                         <button onClick={emptyCart} className='btn bg-secondary'>Delete All</button>
                     </div>

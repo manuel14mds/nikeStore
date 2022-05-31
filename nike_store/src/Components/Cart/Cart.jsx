@@ -3,10 +3,19 @@ import './Cart.css'
 import { useCartContext } from '../../Context/CartContext'
 
 import ItemCart from '../ItemCart/ItemCart'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Cart = () => {
-    const { cartList, emptyCart, totalCart } = useCartContext()
+    const { cartList, emptyCart, totalCart, total } = useCartContext()
+    const [empty, setEmpty] = useState(true)
+
+    useEffect(()=>{
+        total()
+
+        cartList.length>0 ? setEmpty(false) : setEmpty(true)
+
+    }, [cartList])
 
     return (
         <>
@@ -15,13 +24,22 @@ const Cart = () => {
                 <div className='cart container-fluid row'>
 
                     <div className="itemContainer col-md-8">
-                        {cartList.map((item) => <ItemCart key={item.id} item={item}/>)}
-                        
+                        {
+                            empty ?
+                            <>
+                                <h2>Empty Cart</h2>
+                                <Link to='/itemListCont/all'>See All Products</Link>
+                            </>
+
+                                :
+                                cartList.map((item) => <ItemCart key={item.id} item={item}/>)
+                        }
+                            
                     </div>
 
                     <div className="total col-md-4">
                         <h3>total</h3>
-                        <p>{totalCart} €</p>
+                        <p>{totalCart.toFixed(2)} €</p>
                         <button className='btn btn-lg bg-primary'>Shop Now</button>
                         <button onClick={emptyCart} className='btn bg-secondary'>Delete All</button>
                     </div>

@@ -1,6 +1,6 @@
 [
     {
-        "id":"10", "categoria":"shoe", "stock":"10", "new":"False",
+        "id":"10", "categoria":"shoes", "stock":"10", "new":"False",
         "genero":"men", "tallas":["28", "30", "32" ], "precio":"159.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike React Infinity Run Flyknit 3", 
         "imagenes":[
@@ -10,7 +10,7 @@
         ], "descripcion":"Nuestras zapatillas más probadas, diseñadas para ayudarte a superar tras tus metas más altas metas de running. Las Nike React Infinity Run 3 ofrecen suavidad y estabilidad con una pisada agradable que te llevará por cualquier ruta, larga o corta. La parte superior transpirable está diseñada para ofrecer contención, sin perder flexibilidad. Incluso hemos añadido más amortiguación en el talón y el tobillo para proporcionar una sensación de sujeción. No dejes de correr, lo tiene todo."
     }, 
     {
-        "id":"11", "categoria":"shoe", "stock":"15", "new":"True",
+        "id":"11", "categoria":"shoes", "stock":"15", "new":"True",
         "genero":"men", "tallas":["28", "30", "32" ], "precio":"119.99",
         "colores":["blanco", "rojo", "gris"], "nombre":"Nike Air Zoom Pegasus 39", 
         "imagenes":[
@@ -20,7 +20,7 @@
         ], "descripcion":"El running es tu ritual diario, y cada pisada te acerca a tus objetivos personales. Las Nike Air Zoom Pegasus 39 te hacen llegar a nuevas alturas al entrenar y correr con su diseño intuitivo. Son más ligeras en la parte superior que las Pegasus 38 e ideales para cualquier temporada, ofrecen sujeción y contención, y la amortiguación de la planta del pie combinada con unidades Zoom Air dobles (1 más que en las Peg 38) aportan un toque adicional a cada pisada. Vuelve un modelo todoterreno con alas. Es hora de volar."
     }, 
     {
-        "id":"12", "categoria":"shoe", "stock":"20", "new":"False",
+        "id":"12", "categoria":"shoes", "stock":"20", "new":"False",
         "genero":"unisex", "tallas":["28", "30", "32" ], "precio":"299.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike Zoom Alphafly Next Nature", 
         "imagenes":[
@@ -30,7 +30,7 @@
         ], "descripcion":"Dalo todo para llegar a la meta con el siguiente paso en nuestro camino de sostenibilidad. Hemos confeccionado las ultraligeras Nike Air Zoom Alphafly Next Nature con, al menos, un 50 % de materiales reciclados por peso y que no reducen el rendimiento.Se han diseñado para mejorar tus récords personales con un diseño seguro, transpirable y tan ligero que ofrece la sensación de volar.Has entrenado duro, ponte las zapatillas y dalo todo con unas zapatillas confeccionadas con residuos."
     }, 
     {
-        "id":"13", "categoria":"shoe", "stock":"7", "new":"True",
+        "id":"13", "categoria":"shoes", "stock":"7", "new":"True",
         "genero":"men", "tallas":["28", "30", "32" ], "precio":"119.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike ZoomX Vaporfly Next% 2", 
         "imagenes":[
@@ -43,7 +43,7 @@
     
 
     {
-        "id":"14", "categoria":"shoe", "stock":"7", "new":"False",
+        "id":"14", "categoria":"shoes", "stock":"7", "new":"False",
         "genero":"women", "tallas":["28", "30", "32" ], "precio":"124.99",
         "colores":["blanco"], "nombre":"Nike Go FlyEase", 
         "imagenes":[
@@ -53,7 +53,7 @@
         ], "descripcion":"Justo cuando pensabas que ya lo habías visto todo, llega Nike para sorprenderte con una nueva forma de ponerte las zapatillas de forma rápida y sencilla.Toda la parte del talón (incluida la suela) de las Nike Go FlyEase se abre para ofrecer un punto de acceso para que puedas ponerte las zapatillas sin usar las manos.¡Mete el pie, da un paso y ya lo tienes!Todo listo."
     }, 
     {
-        "id":"15", "categoria":"shoe", "stock":"10", "new":"False",
+        "id":"15", "categoria":"shoes", "stock":"10", "new":"False",
         "genero":"women", "tallas":["28", "30", "32" ], "precio":"129.99",
         "colores":["rosa"], "nombre":"Be Kind", 
         "imagenes":[
@@ -63,7 +63,7 @@
         ], "descripcion":"Veámoslas con calma. Con unos agradables e innovadores colores como el aura, el light iron ore y el ocean cube, estas Air Force 1 Low desprenden un estilo apacible cargado de sensibilidad. Los pespuntes a la vista y los materiales combinados como el ante y la piel rugosa añaden un toque premium al aire discreto de este icono urbano. Justo bajo la presilla del talón, hay un mensaje para cualquier persona que necesite este sencillo consejo con el que se puede llegar muy lejos en la vida: 'Be Kind'"
     }, 
     {
-        "id":"16", "categoria":"shoe", "stock":"15", "new":"True",
+        "id":"16", "categoria":"shoes", "stock":"15", "new":"True",
         "genero":"women", "tallas":["28", "30", "32" ], "precio":"149.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike Air Max 90 SE", 
         "imagenes":[
@@ -73,7 +73,7 @@
         ], "descripcion":"Un toque de locura en un diseño clásico. Las Nike Air Max 90 SE se mantienen fieles a sus raíces originales con la icónica suela exterior tipo gofre, los revestimientos cosidos y los clásicos detalles de TPU. La parte superior de parche cuenta con una amplia gama de tejidos con exquisitas texturas que se adaptan al estampado animal para ofrecer un look salvaje."
     }, 
     {
-        "id":"17", "categoria":"shoe", "stock":"20", "new":"False",
+        "id":"17", "categoria":"shoes", "stock":"20", "new":"False",
         "genero":"women", "tallas":["28", "30", "32" ], "precio":"149.99",
         "colores":["blanco", "azul", "negro"], "nombre":"Nike Air Max 270", 
         "imagenes":[
@@ -85,7 +85,7 @@
 
     
     {
-        "id":"18", "categoria":"shoe", "stock":"7", "new":"False",
+        "id":"18", "categoria":"shoes", "stock":"7", "new":"False",
         "genero":"children", "tallas":["18", "20", "23" ], "precio":"114.99",
         "colores":["blanco", "gris", "negro"], "nombre":"Nike Air Max Motif", 
         "imagenes":[
@@ -95,7 +95,7 @@
         ], "descripcion":"Este modelo se adentra en una nueva era en la historia de las Air Max. Las zapatillas Nike Air Max Motif rinden homenaje a las icónicas AM1, una leyenda del estilo urbano desde el 87, con un toque futurista para la nueva generación. Con revestimientos cosidos de inspiración retro y una unidad Air rediseñada con amortiguación supersuave, estas zapatillas tienen todo lo necesario para jugar durante todo el día."
     }, 
     {
-        "id":"19", "categoria":"shoe", "stock":"20", "new":"True",
+        "id":"19", "categoria":"shoes", "stock":"20", "new":"True",
         "genero":"children", "tallas":["18", "20", "23" ], "precio":"79.99",
         "colores":["blanco", "rosa", "negro"], "nombre":"Nike Air Max Dawn", 
         "imagenes":[
@@ -105,7 +105,7 @@
         ], "descripcion":"Las Nike Air Max Dawn marcan un antes y un después en el mundo Air Max.Hemos combinado un estilo clásico con detalles de suave ante para crear unas zapatillas que transportan al futuro. Además, se han confeccionado con, al menos, un 20 % de materiales reciclados por peso.Apuesta por este modelo sencillo y versátil con amortiguación Air para que los más pequeños arrasen."
     }, 
     {
-        "id":"20", "categoria":"shoe", "stock":"10", "new":"False",
+        "id":"20", "categoria":"shoes", "stock":"10", "new":"False",
         "genero":"children", "tallas":["18", "20", "23" ], "precio":"44.99",
         "colores":["rosa", "azul", "negro"], "nombre":"Nike Flex Runner 2", 
         "imagenes":[
@@ -115,7 +115,7 @@
         ], "descripcion":"¡Hemos creado unas zapatillas de running increíblemente fáciles de usar! Las Nike Flex Runner 2 se han diseñado para esos peques que adoran jugar durante todo el día, tanto en clase de Educación Física como corriendo por la manzana. Como no tienen cordones, son muy fáciles de poner y quitar. ¿Todo listo para correr?"
     }, 
     {
-        "id":"21", "categoria":"shoe", "stock":"15", "new":"False",
+        "id":"21", "categoria":"shoes", "stock":"15", "new":"False",
         "genero":"children", "tallas":["18", "17", "15" ], "precio":"64.99",
         "colores":["blanco", "azul", "negro", "rosa"], "nombre":"Nike Air Max Dawn", 
         "imagenes":[
@@ -125,7 +125,7 @@
         ], "descripcion":"Las Nike Air Max Dawn marcan un antes y un después en el mundo Air Max.Hemos combinado un estilo clásico con detalles de suave ante para crear unas zapatillas que transportan al futuro. Además, se han confeccionado con, al menos, un 20 % de materiales reciclados por peso.Apuesta por este modelo sencillo y versátil con amortiguación Air para que los más pequeños arrasen."
     }, 
     {
-        "id":"22", "categoria":"shoe", "stock":"7", "new":"False",
+        "id":"22", "categoria":"shoes", "stock":"7", "new":"False",
         "genero":"children", "tallas":["18", "20", "23" ], "precio":"64.99",
         "colores":["blanco", "colorido", "negro"], "nombre":"Nike Dynamo Go", 
         "imagenes":[

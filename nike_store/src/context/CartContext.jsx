@@ -14,7 +14,7 @@ const CartContextProvider = ({ children }) => {
     function total(){
         let total= 0.0
         for(const item of cartList){
-            total += parseFloat(item.precio) * item.count
+            total += (parseFloat(item.precio) * item.count)
         }
         setTotalCart(total)
 
@@ -54,7 +54,6 @@ const CartContextProvider = ({ children }) => {
 
             }
         }
-        total()//actualiza la cantidad total
     }
 
     function deleteItem(id) {
@@ -66,8 +65,6 @@ const CartContextProvider = ({ children }) => {
         newCart.splice(index, 1)
 
         setCartList([...newCart])
-
-        total()
     }
 
     function emptyCart() {
@@ -79,7 +76,7 @@ const CartContextProvider = ({ children }) => {
     return (
         <CartContext.Provider value={
             {
-                cartList, addToCart, emptyCart, prodUnits, deleteItem, totalCart
+                cartList, addToCart, emptyCart, prodUnits, deleteItem, totalCart, total
             }}>
 
             {children}

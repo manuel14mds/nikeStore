@@ -14,6 +14,7 @@ import ItemDetailContainer from './Container/ItemDetailContainer/ItemDetailConta
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navigate } from 'react-router-dom';
 import CartContextProvider from './Context/CartContext';
+import HelperContextProvider from './Context/HelperContext';
 
 
 
@@ -21,22 +22,24 @@ import CartContextProvider from './Context/CartContext';
 
 function App() {
 
-    console.log(CartContextProvider)
     return (
         <CartContextProvider >
             <BrowserRouter>
                 <div className="App">
                     <NavBar />
                     
-                        <Routes>
-                            <Route path='/' element={<HomeContentContainer />}/>
-                            <Route path='/cart' element={<Cart />}/>
-                            <Route path='/itemListCont/:filter' element={<ItemListContainer />}/>
-                            <Route path='/itemDetailContainer/:itemId' element={<ItemDetailContainer />}/>
+                        <HelperContextProvider>
+                            <Routes>
+                                <Route path='/' element={<HomeContentContainer />}/>
+                                <Route path='/cart' element={<Cart />}/>
+                                <Route path='/itemListCont/:filter' element={<ItemListContainer />}/>
+                                <Route path='/itemDetailContainer/:itemId' element={<ItemDetailContainer />}/>
 
-                            <Route path='/*' element={<Navigate to='/' replace/> }/>
-                            
-                        </Routes>
+                                <Route path='/*' element={<Navigate to='/' replace/> }/>
+                                
+                            </Routes>
+
+                        </HelperContextProvider>
                     
 
                     <Footer />

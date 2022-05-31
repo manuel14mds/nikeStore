@@ -1,11 +1,12 @@
 import { Button, Spinner } from 'react-bootstrap'
 
 import './ItemDetail.css'
-import '../../DataBase/filter.js'
+
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import Interchange from '../Interchange/interchange'
+
 import { useCartContext } from '../../Context/CartContext'
 
 

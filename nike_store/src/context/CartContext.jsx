@@ -14,7 +14,7 @@ const CartContextProvider = ({ children }) => {
     function total(){
         let total= 0.0
         for(const item of cartList){
-            total += (parseFloat(item.precio) * item.count)
+            total += (item.price * item.count)
         }
         setTotalCart(total)
 
@@ -72,6 +72,8 @@ const CartContextProvider = ({ children }) => {
         setProdUnits(0)
         setTotalCart(0.0)
     }
+
+    
 
     return (
         <CartContext.Provider value={

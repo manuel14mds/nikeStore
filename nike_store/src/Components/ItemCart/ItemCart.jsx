@@ -8,11 +8,11 @@ const ItemCart = ({item}) => {
         <div key={item.id} className="item row">
             <div className='itemDetail col-sm-8 row'>
                 <div className="img">
-                    <img src={item.imagenes[0]} alt="product image" />
+                    <img src={item.images[0]} alt="product image" />
                 </div>
                 <div className='col info'>
-                    <p>{item.nombre}</p>
-                    <p>{item.precio} €</p>
+                    <p>{item.name}</p>
+                    <p>{item.price} €</p>
                 </div>
             </div>
 

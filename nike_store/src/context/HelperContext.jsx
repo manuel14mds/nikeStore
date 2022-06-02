@@ -1,30 +1,59 @@
-import { useState } from "react";
-import { createContext, useContext } from "react";
+
+import { createContext, useContext, useState } from "react";
+import { getFirestore, doc, getDoc, collection, getDocs, query, where } from 'firebase/firestore'
 
 const HelperContext = createContext([])
 
 export const useHelperContext = () => useContext(HelperContext)
 
 const HelperContextProvider = ({ children }) => {
+    const [product, setProduct] = useState({})
+    const [listProduct, setListProduct] = useState([])
+
+
 
     //it receives an array and a kind of cartegory
-    //return the array filtered out
-    function arrayFilter(array, filter) {
+    //set the list of products filtered out
+    function arrayFilter(quieryCollection, filter) {
 
-        let newArray = []
         if (filter === "all") {
-            newArray = array
-        } else if (filter === "men" || filter === "women") {
-            newArray = array.filter(item => item.genero === filter || item.genero === 'unisex')
-        } else if (filter === "children") {
-            newArray = array.filter(item => item.genero === filter)
-        } else if (filter === "acce") {
-            newArray = array.filter(item => item.categoria === "accessory")
-        } else {
-            newArray = array.filter(item => item.categoria === filter)
-        }
+            getDocs(quieryCollection)
+            .then(resp => setListProduct(resp.docs.map(item => ({ id: item.id, ...item.data() }))))
+            .catch((err) => console.log(err))
 
-        return newArray
+        } else if (filter === "men" || filter === "women") {
+            const quieryCollectionFilter =  query(quieryCollection, where('gender', '==', filter))
+            getDocs(quieryCollectionFilter)
+            .then(resp => setListProduct(resp.docs.map(item =>({ id: item.id, ... item.data() }) )))
+            .catch((err)=> console.log(err))
+            
+        } else if (filter === "children") {
+            const quieryCollectionFilter =  query(quieryCollection, where('gender', '==', filter))
+            getDocs(quieryCollectionFilter)
+            .then(resp => setListProduct(resp.docs.map(item =>({ id: item.id, ... item.data() }) )))
+            .catch((err)=> console.log(err))
+
+        } else{
+            const quieryCollectionFilter =  query(quieryCollection, where('category', '==', filter))
+            getDocs(quieryCollectionFilter)
+            .then(resp => setListProduct(resp.docs.map(item =>({ id: item.id, ... item.data() }) )))
+            .catch((err)=> console.log(err))
+        }
+    }
+
+    //receives a filter value
+    //update  the list of products
+    function updateProductList(filter) {
+
+        const db = getFirestore()
+        const quieryCollection = collection(db, "products")
+        arrayFilter(quieryCollection, filter)
+
+        /* getDocs(quieryCollection)
+            .then(resp => setListProduct(resp.docs.map(item => ({ id: item.id, ...item.data() }))))
+            .catch((err) => console.log(err)) */
+
+
     }
 
     //receives a category name
@@ -39,7 +68,7 @@ const HelperContextProvider = ({ children }) => {
                 newObj = { title: "shoes", img: "https://static.nike.com/a/images/w_1920,c_limit/0c832e76-586f-455a-81cc-28ea1f0e707c/las-mejores-zapatillas-sin-cordones-para-hombre-y-mujer.jpg" }
 
                 break;
-            case 'acce':
+            case 'accessory':
                 newObj = { title: "accesories", img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a3d94019-8e36-4fc9-8556-66a4f5aba156/esterilla-de-entrenamiento-2-cPjlB0.png" }
 
                 break;
@@ -63,12 +92,33 @@ const HelperContextProvider = ({ children }) => {
         return newObj
     }
 
+    //receives a product id 
+    //returns the entire product object from FIREBASE
+    function findProduct(id) {
 
+        const db = getFirestore()
+        const dbQuery = doc(db, "products", id)
+        getDoc(dbQuery)
+            .then(resp => {
+                setProduct({ id: resp.id, ...resp.data() })
+            })
+            .catch(err => console.log(err))
+    }
+
+    //update the list products when we wanna show only the new products
+    function updateNewlistProducts(){
+        const db = getFirestore()
+        const quieryCollection = collection(db, "products")
+        const quieryCollectionFilter =  query(quieryCollection, where('new', '==', 'true'))
+        getDocs(quieryCollectionFilter)
+        .then(resp => setListProduct(resp.docs.map(item =>({ id: item.id, ... item.data() }) )))
+        .catch((err)=> console.log(err))
+    }
 
     return (
         <HelperContext.Provider value={
             {
-                arrayFilter, tittleResource
+                tittleResource, findProduct, product, listProduct, updateProductList, updateNewlistProducts
             }}>
 
             {children}

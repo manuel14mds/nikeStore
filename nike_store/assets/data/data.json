@@ -1,367 +1,367 @@
 [
     {
-        "id":"10", "categoria":"shoes", "stock":"10", "new":"False",
-        "genero":"men", "tallas":["28", "30", "32" ], "precio":"159.99",
-        "colores":["blanco", "azul", "negro"], "nombre":"Nike React Infinity Run Flyknit 3", 
-        "imagenes":[
+        "id":"10", "category":"shoes", "stock":"10", "new":"false",
+        "gender":"men", "sizes":["28", "30", "32" ], "price":"159.99",
+        "colors":["blanco", "azul", "negro"], "name":"Nike React Infinity Run Flyknit 3", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5a28e397-d083-4398-b0d9-a9911ae22018/react-infinity-run-flyknit-3-zapatillas-de-running-carretera-Pp5hlk.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c44f5879-48c5-4b3a-a4a6-5274ed6c4dd7/react-infinity-run-flyknit-3-zapatillas-de-running-carretera-Pp5hlk.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/aff84436-35c5-4ecc-9774-a4638610fef3/react-infinity-run-flyknit-3-zapatillas-de-running-carretera-Pp5hlk.png"
-        ], "descripcion":"Nuestras zapatillas más probadas, diseñadas para ayudarte a superar tras tus metas más altas metas de running. Las Nike React Infinity Run 3 ofrecen suavidad y estabilidad con una pisada agradable que te llevará por cualquier ruta, larga o corta. La parte superior transpirable está diseñada para ofrecer contención, sin perder flexibilidad. Incluso hemos añadido más amortiguación en el talón y el tobillo para proporcionar una sensación de sujeción. No dejes de correr, lo tiene todo."
+        ], "description":"Nuestras zapatillas más probadas, diseñadas para ayudarte a superar tras tus metas más altas metas de running. Las Nike React Infinity Run 3 ofrecen suavidad y estabilidad con una pisada agradable que te llevará por cualquier ruta, larga o corta. La parte superior transpirable está diseñada para ofrecer contención, sin perder flexibilidad. Incluso hemos añadido más amortiguación en el talón y el tobillo para proporcionar una sensación de sujeción. No dejes de correr, lo tiene todo."
     }, 
     {
-        "id":"11", "categoria":"shoes", "stock":"15", "new":"True",
-        "genero":"men", "tallas":["28", "30", "32" ], "precio":"119.99",
-        "colores":["blanco", "rojo", "gris"], "nombre":"Nike Air Zoom Pegasus 39", 
-        "imagenes":[
+        "id":"11", "category":"shoes", "stock":"15", "new":"true",
+        "gender":"men", "sizes":["28", "30", "32" ], "price":"119.99",
+        "colors":["blanco", "rojo", "gris"], "name":"Nike Air Zoom Pegasus 39", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8b3be65e-eb8c-47b6-9813-1160a4400ec1/air-zoom-pegasus-39-zapatillas-de-running-asfalto-JNVFbf.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c6fa0f18-c652-4310-a4ad-a5623c6c9744/air-zoom-pegasus-39-zapatillas-de-running-asfalto-JNVFbf.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c8221d43-88c6-4a07-afbe-71e5270d84d2/air-zoom-pegasus-39-zapatillas-de-running-asfalto-JNVFbf.png"
-        ], "descripcion":"El running es tu ritual diario, y cada pisada te acerca a tus objetivos personales. Las Nike Air Zoom Pegasus 39 te hacen llegar a nuevas alturas al entrenar y correr con su diseño intuitivo. Son más ligeras en la parte superior que las Pegasus 38 e ideales para cualquier temporada, ofrecen sujeción y contención, y la amortiguación de la planta del pie combinada con unidades Zoom Air dobles (1 más que en las Peg 38) aportan un toque adicional a cada pisada. Vuelve un modelo todoterreno con alas. Es hora de volar."
+        ], "description":"El running es tu ritual diario, y cada pisada te acerca a tus objetivos personales. Las Nike Air Zoom Pegasus 39 te hacen llegar a nuevas alturas al entrenar y correr con su diseño intuitivo. Son más ligeras en la parte superior que las Pegasus 38 e ideales para cualquier temporada, ofrecen sujeción y contención, y la amortiguación de la planta del pie combinada con unidades Zoom Air dobles (1 más que en las Peg 38) aportan un toque adicional a cada pisada. Vuelve un modelo todoterreno con alas. Es hora de volar."
     }, 
     {
-        "id":"12", "categoria":"shoes", "stock":"20", "new":"False",
-        "genero":"unisex", "tallas":["28", "30", "32" ], "precio":"299.99",
-        "colores":["blanco", "azul", "negro"], "nombre":"Nike Zoom Alphafly Next Nature", 
-        "imagenes":[
+        "id":"12", "category":"shoes", "stock":"20", "new":"false",
+        "gender":"unisex", "sizes":["28", "30", "32" ], "price":"299.99",
+        "colors":["blanco", "azul", "negro"], "name":"Nike Zoom Alphafly Next Nature", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/92b73dd3-1810-43f6-8552-9553526825b4/zoom-alphafly-next-nature-zapatillas-de-competicion-carretera-3mk9g2.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8f7b5836-27ec-4248-aea0-688d9652aaca/zoom-alphafly-next-nature-zapatillas-de-competicion-carretera-3mk9g2.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/04993055-6221-4a74-8ff2-bd37b481c057/zoom-alphafly-next-nature-zapatillas-de-competicion-carretera-3mk9g2.png"
-        ], "descripcion":"Dalo todo para llegar a la meta con el siguiente paso en nuestro camino de sostenibilidad. Hemos confeccionado las ultraligeras Nike Air Zoom Alphafly Next Nature con, al menos, un 50 % de materiales reciclados por peso y que no reducen el rendimiento.Se han diseñado para mejorar tus récords personales con un diseño seguro, transpirable y tan ligero que ofrece la sensación de volar.Has entrenado duro, ponte las zapatillas y dalo todo con unas zapatillas confeccionadas con residuos."
+        ], "description":"Dalo todo para llegar a la meta con el siguiente paso en nuestro camino de sostenibilidad. Hemos confeccionado las ultraligeras Nike Air Zoom Alphafly Next Nature con, al menos, un 50 % de materiales reciclados por peso y que no reducen el rendimiento.Se han diseñado para mejorar tus récords personales con un diseño seguro, transpirable y tan ligero que ofrece la sensación de volar.Has entrenado duro, ponte las zapatillas y dalo todo con unas zapatillas confeccionadas con residuos."
     }, 
     {
-        "id":"13", "categoria":"shoes", "stock":"7", "new":"True",
-        "genero":"men", "tallas":["28", "30", "32" ], "precio":"119.99",
-        "colores":["blanco", "azul", "negro"], "nombre":"Nike ZoomX Vaporfly Next% 2", 
-        "imagenes":[
+        "id":"13", "category":"shoes", "stock":"7", "new":"true",
+        "gender":"men", "sizes":["28", "30", "32" ], "price":"119.99",
+        "colors":["blanco", "azul", "negro"], "name":"Nike ZoomX Vaporfly Next% 2", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1622d34a-b828-4483-a974-74ca66bfb8b5/zoomx-vaporfly-next-2-zapatillas-de-competicion-asfalto-821S4F.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0248af3c-9a7a-409d-bfc5-d963280d4a1b/zoomx-vaporfly-next-2-zapatillas-de-competicion-asfalto-821S4F.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5cfa0cf1-dbf5-48a0-9ede-bcc60fe5daec/zoomx-vaporfly-next-2-zapatillas-de-competicion-asfalto-821S4F.png"
-        ], "descripcion":"Descubre la siguiente evolución de la velocidad con unas zapatillas de competición diseñadas para perseguir nuevos objetivos y récords. Ayudan a mejorar la comodidad y la transpirabilidad con una parte superior rediseñada. Ya sea en carreras de 10 kilómetros o en maratones, este modelo, al igual que su versión anterior, ofrece una amortiguación reactiva y una sujeción segura para superar cualquier marca personal."
+        ], "description":"Descubre la siguiente evolución de la velocidad con unas zapatillas de competición diseñadas para perseguir nuevos objetivos y récords. Ayudan a mejorar la comodidad y la transpirabilidad con una parte superior rediseñada. Ya sea en carreras de 10 kilómetros o en maratones, este modelo, al igual que su versión anterior, ofrece una amortiguación reactiva y una sujeción segura para superar cualquier marca personal."
     },
     
     
 
     {
-        "id":"14", "categoria":"shoes", "stock":"7", "new":"False",
-        "genero":"women", "tallas":["28", "30", "32" ], "precio":"124.99",
-        "colores":["blanco"], "nombre":"Nike Go FlyEase", 
-        "imagenes":[
+        "id":"14", "category":"shoes", "stock":"7", "new":"false",
+        "gender":"women", "sizes":["28", "30", "32" ], "price":"124.99",
+        "colors":["blanco"], "name":"Nike Go FlyEase", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/86a3e932-e234-4145-8a33-7a38c671a25a/go-flyease-zapatillas-5fQ47m.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9f85af24-2213-4fc9-8155-cfeea74c2165/go-flyease-zapatillas-5fQ47m.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/50a0f68d-8d8a-4c4f-974f-c8ef2ed35ec1/go-flyease-zapatillas-5fQ47m.png"
-        ], "descripcion":"Justo cuando pensabas que ya lo habías visto todo, llega Nike para sorprenderte con una nueva forma de ponerte las zapatillas de forma rápida y sencilla.Toda la parte del talón (incluida la suela) de las Nike Go FlyEase se abre para ofrecer un punto de acceso para que puedas ponerte las zapatillas sin usar las manos.¡Mete el pie, da un paso y ya lo tienes!Todo listo."
+        ], "description":"Justo cuando pensabas que ya lo habías visto todo, llega Nike para sorprenderte con una nueva forma de ponerte las zapatillas de forma rápida y sencilla.Toda la parte del talón (incluida la suela) de las Nike Go FlyEase se abre para ofrecer un punto de acceso para que puedas ponerte las zapatillas sin usar las manos.¡Mete el pie, da un paso y ya lo tienes!Todo listo."
     }, 
     {
-        "id":"15", "categoria":"shoes", "stock":"10", "new":"False",
-        "genero":"women", "tallas":["28", "30", "32" ], "precio":"129.99",
-        "colores":["rosa"], "nombre":"Be Kind", 
-        "imagenes":[
+        "id":"15", "category":"shoes", "stock":"10", "new":"false",
+        "gender":"women", "sizes":["28", "30", "32" ], "price":"129.99",
+        "colors":["rosa"], "name":"Be Kind", 
+        "images":[
             "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/c391759b-7fb3-44cc-8a36-6b6bf234c204/fecha-de-lanzamiento-de-las-air-force-1-low-be-kind-para-women-dr3100-001.jpg",
             "https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/e206abfa-97c3-4a5b-bd82-a6e257c22d20/fecha-de-lanzamiento-de-las-air-force-1-low-be-kind-para-women-dr3100-001.jpg",
             "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/7b016720-d4dc-461b-ad9b-243892d0fc7f/fecha-de-lanzamiento-de-las-air-force-1-low-be-kind-para-women-dr3100-001.jpg"
-        ], "descripcion":"Veámoslas con calma. Con unos agradables e innovadores colores como el aura, el light iron ore y el ocean cube, estas Air Force 1 Low desprenden un estilo apacible cargado de sensibilidad. Los pespuntes a la vista y los materiales combinados como el ante y la piel rugosa añaden un toque premium al aire discreto de este icono urbano. Justo bajo la presilla del talón, hay un mensaje para cualquier persona que necesite este sencillo consejo con el que se puede llegar muy lejos en la vida: 'Be Kind'"
+        ], "description":"Veámoslas con calma. Con unos agradables e innovadores colors como el aura, el light iron ore y el ocean cube, estas Air Force 1 Low desprenden un estilo apacible cargado de sensibilidad. Los pespuntes a la vista y los materiales combinados como el ante y la piel rugosa añaden un toque premium al aire discreto de este icono urbano. Justo bajo la presilla del talón, hay un mensaje para cualquier persona que necesite este sencillo consejo con el que se puede llegar muy lejos en la vida: 'Be Kind'"
     }, 
     {
-        "id":"16", "categoria":"shoes", "stock":"15", "new":"True",
-        "genero":"women", "tallas":["28", "30", "32" ], "precio":"149.99",
-        "colores":["blanco", "azul", "negro"], "nombre":"Nike Air Max 90 SE", 
-        "imagenes":[
+        "id":"16", "category":"shoes", "stock":"15", "new":"true",
+        "gender":"women", "sizes":["28", "30", "32" ], "price":"149.99",
+        "colors":["blanco", "azul", "negro"], "name":"Nike Air Max 90 SE", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/71b76b15-f9e4-4a0e-9654-a9f8dc373597/air-max-90-se-zapatillas-G1zFRR.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/9e9310a6-9432-4249-81b3-6575d332e603/air-max-90-se-zapatillas-G1zFRR.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c8d08290-f00e-4e50-ad05-b8c44fc6617b/air-max-90-se-zapatillas-G1zFRR.png"
-        ], "descripcion":"Un toque de locura en un diseño clásico. Las Nike Air Max 90 SE se mantienen fieles a sus raíces originales con la icónica suela exterior tipo gofre, los revestimientos cosidos y los clásicos detalles de TPU. La parte superior de parche cuenta con una amplia gama de tejidos con exquisitas texturas que se adaptan al estampado animal para ofrecer un look salvaje."
+        ], "description":"Un toque de locura en un diseño clásico. Las Nike Air Max 90 SE se mantienen fieles a sus raíces originales con la icónica suela exterior tipo gofre, los revestimientos cosidos y los clásicos detalles de TPU. La parte superior de parche cuenta con una amplia gama de tejidos con exquisitas texturas que se adaptan al estampado animal para ofrecer un look salvaje."
     }, 
     {
-        "id":"17", "categoria":"shoes", "stock":"20", "new":"False",
-        "genero":"women", "tallas":["28", "30", "32" ], "precio":"149.99",
-        "colores":["blanco", "azul", "negro"], "nombre":"Nike Air Max 270", 
-        "imagenes":[
+        "id":"17", "category":"shoes", "stock":"20", "new":"false",
+        "gender":"women", "sizes":["28", "30", "32" ], "price":"149.99",
+        "colors":["blanco", "azul", "negro"], "name":"Nike Air Max 270", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1b8e8e0e-acdd-429a-986c-24ccb2254d05/air-max-270-zapatillas-P0j2DN.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ca28b525-ba5b-4024-af45-6f2030547ddd/air-max-270-zapatillas-P0j2DN.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/57c7f846-26e0-4a63-a643-fa6cbe66cac5/air-max-270-zapatillas-P0j2DN.png"
-        ], "descripcion":"Las primeras Air Max de Nike para el día a día ofrecen más estilo, comodidad y una gran actitud en las Nike Air Max 270. El diseño se inspira en los iconos de Air Max para destacar la innovación más importante de Nike con una amplia ventana y una gran variedad de colores modernos."
+        ], "description":"Las primeras Air Max de Nike para el día a día ofrecen más estilo, comodidad y una gran actitud en las Nike Air Max 270. El diseño se inspira en los iconos de Air Max para destacar la innovación más importante de Nike con una amplia ventana y una gran variedad de colors modernos."
     }, 
 
     
     {
-        "id":"18", "categoria":"shoes", "stock":"7", "new":"False",
-        "genero":"children", "tallas":["18", "20", "23" ], "precio":"114.99",
-        "colores":["blanco", "gris", "negro"], "nombre":"Nike Air Max Motif", 
-        "imagenes":[
+        "id":"18", "category":"shoes", "stock":"7", "new":"false",
+        "gender":"children", "sizes":["18", "20", "23" ], "price":"114.99",
+        "colors":["blanco", "gris", "negro"], "name":"Nike Air Max Motif", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b8dbb24c-b870-4eb4-8fcb-7127260d2bb6/air-max-motif-zapatillas-nino-a-K2rrj1.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/03c7b8ae-215a-4a82-98da-7e417a7887f4/air-max-motif-zapatillas-nino-a-K2rrj1.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e4cc36bc-6a40-4a28-96fd-c1c8a0fd7dc0/air-max-motif-zapatillas-nino-a-K2rrj1.png"
-        ], "descripcion":"Este modelo se adentra en una nueva era en la historia de las Air Max. Las zapatillas Nike Air Max Motif rinden homenaje a las icónicas AM1, una leyenda del estilo urbano desde el 87, con un toque futurista para la nueva generación. Con revestimientos cosidos de inspiración retro y una unidad Air rediseñada con amortiguación supersuave, estas zapatillas tienen todo lo necesario para jugar durante todo el día."
+        ], "description":"Este modelo se adentra en una nueva era en la historia de las Air Max. Las zapatillas Nike Air Max Motif rinden homenaje a las icónicas AM1, una leyenda del estilo urbano desde el 87, con un toque futurista para la nueva generación. Con revestimientos cosidos de inspiración retro y una unidad Air rediseñada con amortiguación supersuave, estas zapatillas tienen todo lo necesario para jugar durante todo el día."
     }, 
     {
-        "id":"19", "categoria":"shoes", "stock":"20", "new":"True",
-        "genero":"children", "tallas":["18", "20", "23" ], "precio":"79.99",
-        "colores":["blanco", "rosa", "negro"], "nombre":"Nike Air Max Dawn", 
-        "imagenes":[
+        "id":"19", "category":"shoes", "stock":"20", "new":"true",
+        "gender":"children", "sizes":["18", "20", "23" ], "price":"79.99",
+        "colors":["blanco", "rosa", "negro"], "name":"Nike Air Max Dawn", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b316607f-e2f9-4911-8fa6-f295cd9e6a7a/air-max-dawn-zapatillas-nino-a-pequeno-a-ZxBbnq.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f6fd3428-5b57-4c6a-bf16-6dd989e16a9e/air-max-dawn-zapatillas-nino-a-pequeno-a-ZxBbnq.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2bf53d8c-1865-4f20-9ee8-e71e695dfc0f/air-max-dawn-zapatillas-nino-a-pequeno-a-ZxBbnq.png"
-        ], "descripcion":"Las Nike Air Max Dawn marcan un antes y un después en el mundo Air Max.Hemos combinado un estilo clásico con detalles de suave ante para crear unas zapatillas que transportan al futuro. Además, se han confeccionado con, al menos, un 20 % de materiales reciclados por peso.Apuesta por este modelo sencillo y versátil con amortiguación Air para que los más pequeños arrasen."
+        ], "description":"Las Nike Air Max Dawn marcan un antes y un después en el mundo Air Max.Hemos combinado un estilo clásico con detalles de suave ante para crear unas zapatillas que transportan al futuro. Además, se han confeccionado con, al menos, un 20 % de materiales reciclados por peso.Apuesta por este modelo sencillo y versátil con amortiguación Air para que los más pequeños arrasen."
     }, 
     {
-        "id":"20", "categoria":"shoes", "stock":"10", "new":"False",
-        "genero":"children", "tallas":["18", "20", "23" ], "precio":"44.99",
-        "colores":["rosa", "azul", "negro"], "nombre":"Nike Flex Runner 2", 
-        "imagenes":[
+        "id":"20", "category":"shoes", "stock":"10", "new":"false",
+        "gender":"children", "sizes":["18", "20", "23" ], "price":"44.99",
+        "colors":["rosa", "azul", "negro"], "name":"Nike Flex Runner 2", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/60b481c7-6d94-4ff1-9136-1ab90d66680f/flex-runner-2-zapatillas-de-running-asfalto-nino-a-b2QZzh.png",
             "https://static.nike.com/a/videos/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,so_8.75/c5170522-26c7-4295-8e75-8cda99da01a2/flex-runner-2-zapatillas-de-running-asfalto-nino-a-b2QZzh.jpg",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/76e408de-1a83-43f3-9e91-c893ae67babb/flex-runner-2-zapatillas-de-running-asfalto-nino-a-b2QZzh.png"
-        ], "descripcion":"¡Hemos creado unas zapatillas de running increíblemente fáciles de usar! Las Nike Flex Runner 2 se han diseñado para esos peques que adoran jugar durante todo el día, tanto en clase de Educación Física como corriendo por la manzana. Como no tienen cordones, son muy fáciles de poner y quitar. ¿Todo listo para correr?"
+        ], "description":"¡Hemos creado unas zapatillas de running increíblemente fáciles de usar! Las Nike Flex Runner 2 se han diseñado para esos peques que adoran jugar durante todo el día, tanto en clase de Educación Física como corriendo por la manzana. Como no tienen cordones, son muy fáciles de poner y quitar. ¿Todo listo para correr?"
     }, 
     {
-        "id":"21", "categoria":"shoes", "stock":"15", "new":"False",
-        "genero":"children", "tallas":["18", "17", "15" ], "precio":"64.99",
-        "colores":["blanco", "azul", "negro", "rosa"], "nombre":"Nike Air Max Dawn", 
-        "imagenes":[
+        "id":"21", "category":"shoes", "stock":"15", "new":"false",
+        "gender":"children", "sizes":["18", "17", "15" ], "price":"64.99",
+        "colors":["blanco", "azul", "negro", "rosa"], "name":"Nike Air Max Dawn", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/17bc788f-a61c-44c5-9472-05947a03c4d6/air-max-dawn-zapatillas-e-0LhXxN.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7717de88-d912-4173-9036-3831c84586e6/air-max-dawn-zapatillas-e-0LhXxN.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/24d26b06-9c9f-44c5-8836-ec48756f973c/air-max-dawn-zapatillas-e-0LhXxN.png"
-        ], "descripcion":"Las Nike Air Max Dawn marcan un antes y un después en el mundo Air Max.Hemos combinado un estilo clásico con detalles de suave ante para crear unas zapatillas que transportan al futuro. Además, se han confeccionado con, al menos, un 20 % de materiales reciclados por peso.Apuesta por este modelo sencillo y versátil con amortiguación Air para que los más pequeños arrasen."
+        ], "description":"Las Nike Air Max Dawn marcan un antes y un después en el mundo Air Max.Hemos combinado un estilo clásico con detalles de suave ante para crear unas zapatillas que transportan al futuro. Además, se han confeccionado con, al menos, un 20 % de materiales reciclados por peso.Apuesta por este modelo sencillo y versátil con amortiguación Air para que los más pequeños arrasen."
     }, 
     {
-        "id":"22", "categoria":"shoes", "stock":"7", "new":"False",
-        "genero":"children", "tallas":["18", "20", "23" ], "precio":"64.99",
-        "colores":["blanco", "colorido", "negro"], "nombre":"Nike Dynamo Go", 
-        "imagenes":[
+        "id":"22", "category":"shoes", "stock":"7", "new":"false",
+        "gender":"children", "sizes":["18", "20", "23" ], "price":"64.99",
+        "colors":["blanco", "colorido", "negro"], "name":"Nike Dynamo Go", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b8d3dd45-f790-4c62-b470-2d3e3975022b/dynamo-go-zapatillas-faciles-de-poner-y-quitar-nino-a-pequeno-a-qmfPzS.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/83f56067-8008-4791-abdd-efcf708f0a65/dynamo-go-zapatillas-faciles-de-poner-y-quitar-nino-a-pequeno-a-qmfPzS.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ad37b487-7587-48e8-ba69-b1c8b86ca7b6/dynamo-go-zapatillas-faciles-de-poner-y-quitar-nino-a-pequeno-a-qmfPzS.png"
-        ], "descripcion":"Las Nike Dynamo Go tienen un diseño sencillo, ceñido e ideal para jugar, por lo que serán el próximo modelo favorito de los más pequeños. Lo mejor es que son fáciles de poner gracias al talón plegable. Si los más pequeños no pueden hacerlo solos, enséñales. Además, ofrecen suavidad en los mejores lugares para que no pare la diversión."
+        ], "description":"Las Nike Dynamo Go tienen un diseño sencillo, ceñido e ideal para jugar, por lo que serán el próximo modelo favorito de los más pequeños. Lo mejor es que son fáciles de poner gracias al talón plegable. Si los más pequeños no pueden hacerlo solos, enséñales. Además, ofrecen suavidad en los mejores lugares para que no pare la diversión."
     }, 
     
     
     
     {
-        "id":"23", "categoria":"clothing", "stock":"7", "new":"False",
-        "genero":"men", "tallas":["S", "M", "L" ], "precio":"119.99",
-        "colores":["blanco", "azul", "negro"], "nombre":"Nike Sportswear Tech Fleece", 
-        "imagenes":[
+        "id":"23", "category":"clothing", "stock":"7", "new":"false",
+        "gender":"men", "sizes":["S", "M", "L" ], "price":"119.99",
+        "colors":["blanco", "azul", "negro"], "name":"Nike Sportswear Tech Fleece", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fd582d4f-954c-4a27-8609-cb6c3cd3b1d7/sportswear-tech-fleece-sudadera-con-capucha-con-cremallera-completa-4DQKFx.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1c78851e-bbda-4e64-99a0-3c51c6b415c5/sportswear-tech-fleece-sudadera-con-capucha-con-cremallera-completa-4DQKFx.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ad197de4-9f23-4e7e-8db3-523a1ed06759/sportswear-tech-fleece-sudadera-con-capucha-con-cremallera-completa-4DQKFx.png"
-        ], "descripcion":"¿Buscas la calidez y la comodidad de tu sudadera con capucha favorita para el fin de semana, pero con un look un poco más elevado? La sudadera con capucha Nike Tech Fleece ofrece el equilibrio perfecto entre comodidad y diseño. El tejido ligero retiene el calor sin añadir volumen para poder combinarla fácilmente con otras prendas mientras estás tranquilamente en casa o cuando sales por la mañana en los días fríos."
+        ], "description":"¿Buscas la calidez y la comodidad de tu sudadera con capucha favorita para el fin de semana, pero con un look un poco más elevado? La sudadera con capucha Nike Tech Fleece ofrece el equilibrio perfecto entre comodidad y diseño. El tejido ligero retiene el calor sin añadir volumen para poder combinarla fácilmente con otras prendas mientras estás tranquilamente en casa o cuando sales por la mañana en los días fríos."
     }, 
     {
-        "id":"24", "categoria":"clothing", "stock":"15", "new":"False",
-        "genero":"men", "tallas":["S", "M", "L" ], "precio":"119.99",
-        "colores":["blanco", "azul", "negro"], "nombre":"Jordan x Zion", 
-        "imagenes":[
+        "id":"24", "category":"clothing", "stock":"15", "new":"false",
+        "gender":"men", "sizes":["S", "M", "L" ], "price":"119.99",
+        "colors":["blanco", "azul", "negro"], "name":"Jordan x Zion", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d8c0fbb6-ea28-4b06-aa6e-7763130fb251/jordan-zion-parte-de-arriba-con-cremallera-completa-JcGb5q.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/44e05c19-b643-476d-988d-aab9df0f755a/jordan-zion-parte-de-arriba-con-cremallera-completa-JcGb5q.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f872b051-2ba4-4c3a-a60c-58fd547892c8/jordan-zion-parte-de-arriba-con-cremallera-completa-JcGb5q.png"
-        ], "descripcion":"La parte de arriba Jordan x Zion se inspira en la pasión de Zion por el anime y combina la funcionalidad y el look urbano con materiales de alto rendimiento para ofrecer un look que te permite jugar o relajarte. El logotipo reflectante cubre la manga, al tiempo que el estampado de la parte posterior rinde homenaje a su estilo. Este producto se ha confeccionado con, al menos, un 50 % de fibras de poliéster reciclado."
+        ], "description":"La parte de arriba Jordan x Zion se inspira en la pasión de Zion por el anime y combina la funcionalidad y el look urbano con materiales de alto rendimiento para ofrecer un look que te permite jugar o relajarte. El logotipo reflectante cubre la manga, al tiempo que el estampado de la parte posterior rinde homenaje a su estilo. Este producto se ha confeccionado con, al menos, un 50 % de fibras de poliéster reciclado."
     }, 
     {
-        "id":"25", "categoria":"clothing", "stock":"20", "new":"True",
-        "genero":"men", "tallas":["S", "M", "L" ], "precio":"34.99",
-        "colores":["blanco", "azul", "negro"], "nombre":"Nike Dri-FIT Strike", 
-        "imagenes":[
+        "id":"25", "category":"clothing", "stock":"20", "new":"true",
+        "gender":"men", "sizes":["S", "M", "L" ], "price":"34.99",
+        "colors":["blanco", "azul", "negro"], "name":"Nike Dri-FIT Strike", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/18b2ba7c-fed2-41e6-8089-c3d925ca4421/dri-fit-strike-camiseta-de-futbol-V06mcs.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4a6f9d68-8c6f-4751-a1be-a569174fa44b/dri-fit-strike-camiseta-de-futbol-V06mcs.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/bf1dc7fe-2fca-4922-b701-c877d4d96cd0/dri-fit-strike-camiseta-de-futbol-V06mcs.png"
-        ], "descripcion":"La camiseta Chelsea Strike Nike Dri-FIT cuenta con detalles de diseño específicamente pensados para las estrellas más prometedoras del fútbol. Presenta un ajuste entallado y estilizado para que nada se interponga entre el balón y tú, y un tejido con capilarización del sudor para mantener la frescura y la concentración mientras perfeccionas tus habilidades. Este producto está fabricado con fibras de poliéster 100 % reciclado."
+        ], "description":"La camiseta Chelsea Strike Nike Dri-FIT cuenta con detalles de diseño específicamente pensados para las estrellas más prometedoras del fútbol. Presenta un ajuste entallado y estilizado para que nada se interponga entre el balón y tú, y un tejido con capilarización del sudor para mantener la frescura y la concentración mientras perfeccionas tus habilidades. Este producto está fabricado con fibras de poliéster 100 % reciclado."
     }, 
     {
-        "id":"26", "categoria":"clothing", "stock":"10", "new":"False",
-        "genero":"men", "tallas":["S", "M", "L" ], "precio":"69.99",
-        "colores":["blanco", "azul", "negro"], "nombre":"NikeCourt Dri-FIT Slam", 
-        "imagenes":[
+        "id":"26", "category":"clothing", "stock":"10", "new":"false",
+        "gender":"men", "sizes":["S", "M", "L" ], "price":"69.99",
+        "colors":["blanco", "azul", "negro"], "name":"NikeCourt Dri-FIT Slam", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fd26171b-b490-49ac-a1df-0feb3333c512/nikecourt-dri-fit-slam-pantalon-corto-de-tenis-2-en-1-h1GJWW.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ee4efc74-adf3-43a0-8064-315ada70019e/nikecourt-dri-fit-slam-pantalon-corto-de-tenis-2-en-1-h1GJWW.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fcd54aea-d920-42b8-9c87-497b34e36eba/nikecourt-dri-fit-slam-pantalon-corto-de-tenis-2-en-1-h1GJWW.png"
-        ], "descripcion":"El pantalón corto NikeCourt Dri-FIT Slam combina un ligero pantalón corto exterior con el ajuste seguro, la elasticidad y la comodidad de un pantalón corto interior. Pliegues ligeramente en ángulo en la parte inferior de cada bolsillo que se expanden para llevar las pelotas de tenis con facilidad y seguridad mientras corres por la pista. Este producto se ha confeccionado con, al menos, un 75 % de fibras de poliéster reciclado."
+        ], "description":"El pantalón corto NikeCourt Dri-FIT Slam combina un ligero pantalón corto exterior con el ajuste seguro, la elasticidad y la comodidad de un pantalón corto interior. Pliegues ligeramente en ángulo en la parte inferior de cada bolsillo que se expanden para llevar las pelotas de tenis con facilidad y seguridad mientras corres por la pista. Este producto se ha confeccionado con, al menos, un 75 % de fibras de poliéster reciclado."
     }, 
     {
-        "id":"27", "categoria":"clothing", "stock":"7", "new":"False",
-        "genero":"men", "tallas":["S", "M", "L" ], "precio":"69.99",
-        "colores":["blanco", "azul", "negro"], "nombre":"Jordan Essentials", 
-        "imagenes":[
+        "id":"27", "category":"clothing", "stock":"7", "new":"false",
+        "gender":"men", "sizes":["S", "M", "L" ], "price":"69.99",
+        "colors":["blanco", "azul", "negro"], "name":"Jordan Essentials", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4ecc1d3f-46d8-4e55-ba84-35ef0eb02eb9/jordan-essentials-pantalon-de-calentamiento-v1FX2D.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4ef93c54-2816-4524-8ba9-2f7fd52a8fc4/jordan-essentials-pantalon-de-calentamiento-v1FX2D.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4b709bcc-0702-490c-b199-43f96c96e76a/jordan-essentials-pantalon-de-calentamiento-v1FX2D.png"
-        ], "descripcion":"El pantalón Jordan Essentials calentamiento ofrece una nueva versión de la icónica silueta de los Flight Suit. Está confeccionado con un cómodo tejido de doble punto y un gran número de bolsillos, por lo que resulta perfecto para lucir bien sobre la marcha."
+        ], "description":"El pantalón Jordan Essentials calentamiento ofrece una nueva versión de la icónica silueta de los Flight Suit. Está confeccionado con un cómodo tejido de doble punto y un gran número de bolsillos, por lo que resulta perfecto para lucir bien sobre la marcha."
     }, 
     
 
 
     {
-        "id":"28", "categoria":"clothing", "stock":"15", "new":"True",
-        "genero":"women", "tallas":["S", "M", "L" ], "precio":"47.99",
-        "colores":["blanco"], "nombre":"Nike Dri-FIT Alate Coverage", 
-        "imagenes":[
+        "id":"28", "category":"clothing", "stock":"15", "new":"true",
+        "gender":"women", "sizes":["S", "M", "L" ], "price":"47.99",
+        "colors":["blanco"], "name":"Nike Dri-FIT Alate Coverage", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/60f57467-8227-410a-9e66-5b6f07ab7629/dri-fit-alate-coverage-sujetador-deportivo-de-sujecion-ligera-con-almohadilla-HFChJl.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/137783b4-94d2-453b-9631-3e39e629d150/dri-fit-alate-coverage-sujetador-deportivo-de-sujecion-ligera-con-almohadilla-HFChJl.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/db831b6c-bf5f-4d89-be24-8513ca446239/dri-fit-alate-coverage-sujetador-deportivo-de-sujecion-ligera-con-almohadilla-HFChJl.png"
-        ], "descripcion":"Que cambies de escenario no significa que tengas que cambiar de sujetador. Diseñado para ofrecerte sujeción y comodidad durante todo el día, el sujetador deportivo Nike Alate Coverage es tan ligero que apenas notarás que lo llevas puesto. Es ideal tanto para alcanzar nuevas alturas como para disfrutar de un momento de tranquilidad. Con almohadillas elásticas e innovadoras, tirantes regulables y un tejido suave con capilarización del sudor, este sujetador de protección completa te ayuda a hacer frente a todo lo que tu día te depare. Este producto se ha confeccionado con, al menos, un 50 % de fibras de poliéster reciclado."
+        ], "description":"Que cambies de escenario no significa que tengas que cambiar de sujetador. Diseñado para ofrecerte sujeción y comodidad durante todo el día, el sujetador deportivo Nike Alate Coverage es tan ligero que apenas notarás que lo llevas puesto. Es ideal tanto para alcanzar nuevas alturas como para disfrutar de un momento de tranquilidad. Con almohadillas elásticas e innovadoras, tirantes regulables y un tejido suave con capilarización del sudor, este sujetador de protección completa te ayuda a hacer frente a todo lo que tu día te depare. Este producto se ha confeccionado con, al menos, un 50 % de fibras de poliéster reciclado."
     }, 
     {
-        "id":"29", "categoria":"clothing", "stock":"20", "new":"False",
-        "genero":"women", "tallas":["S", "M", "L" ], "precio":"104.99",
-        "colores":["negro"], "nombre":"Nike Sportswear Tech Fleece Windrunner", 
-        "imagenes":[
+        "id":"29", "category":"clothing", "stock":"20", "new":"false",
+        "gender":"women", "sizes":["S", "M", "L" ], "price":"104.99",
+        "colors":["negro"], "name":"Nike Sportswear Tech Fleece Windrunner", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d948def6-330b-4222-b9fe-db917024cf85/sportswear-tech-fleece-windrunner-sudadera-con-capucha-con-cremallera-completa-7kK8vl.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a76da9f5-4854-408c-824c-cfd8e576e87a/sportswear-tech-fleece-windrunner-sudadera-con-capucha-con-cremallera-completa-7kK8vl.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/07c5043f-a6b6-4eaa-a32a-477f28d91444/sportswear-tech-fleece-windrunner-sudadera-con-capucha-con-cremallera-completa-7kK8vl.png"
-        ], "descripcion":"La sudadera con capucha Nike Sportswear Tech Fleece está confeccionada con un tejido separador de doble cara que aprovecha el calor corporal para retener la calidez sin añadir peso ni volumen."
+        ], "description":"La sudadera con capucha Nike Sportswear Tech Fleece está confeccionada con un tejido separador de doble cara que aprovecha el calor corporal para retener la calidez sin añadir peso ni volumen."
     }, 
     {
-        "id":"30", "categoria":"clothing", "stock":"25", "new":"False",
-        "genero":"women", "tallas":["S", "M", "L" ], "precio":"49.99",
-        "colores":["rosa"], "nombre":"Nike Dri-FIT One Luxe", 
-        "imagenes":[
+        "id":"30", "category":"clothing", "stock":"25", "new":"false",
+        "gender":"women", "sizes":["S", "M", "L" ], "price":"49.99",
+        "colors":["rosa"], "name":"Nike Dri-FIT One Luxe", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d2659136-48d9-49bb-9cca-3eb23931956a/dri-fit-one-luxe-camiseta-de-tirantes-de-entrenamiento-cvnGD5.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/05de14c1-c98d-4bc8-bdac-ceab7e2d286f/dri-fit-one-luxe-camiseta-de-tirantes-de-entrenamiento-cvnGD5.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/db14df93-fbd3-4966-8910-1908dc944690/dri-fit-one-luxe-camiseta-de-tirantes-de-entrenamiento-cvnGD5.png"
-        ], "descripcion":"La camiseta de tirantes Nike Dri-FIT One Luxe está diseñada para todas las formas de entrenamiento, desde yoga hasta entrenamientos de intervalos de alta intensidad o sesiones de running largas. Esta camiseta es parte de la línea Nike Luxe y combina un diseño lujoso con un tejido ultrasuave que deja pasar el aire para mantener la frescura y la transpirabilidad. Este producto se ha confeccionado con, al menos, un 75 % de fibras de poliéster reciclado."
+        ], "description":"La camiseta de tirantes Nike Dri-FIT One Luxe está diseñada para todas las formas de entrenamiento, desde yoga hasta entrenamientos de intervalos de alta intensidad o sesiones de running largas. Esta camiseta es parte de la línea Nike Luxe y combina un diseño lujoso con un tejido ultrasuave que deja pasar el aire para mantener la frescura y la transpirabilidad. Este producto se ha confeccionado con, al menos, un 75 % de fibras de poliéster reciclado."
     }, 
     {
-        "id":"31", "categoria":"clothing", "stock":"10", "new":"False",
-        "genero":"women", "tallas":["S", "M", "L" ], "precio":"54.99",
-        "colores":["rosa"], "nombre":"Nike Sportswear Essential Collection", 
-        "imagenes":[
+        "id":"31", "category":"clothing", "stock":"10", "new":"false",
+        "gender":"women", "sizes":["S", "M", "L" ], "price":"54.99",
+        "colors":["rosa"], "name":"Nike Sportswear Essential Collection", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4949ed02-5503-40e4-8443-275b09146a28/sportswear-essential-collection-pantalon-de-tejido-fleece-ZHpV9z.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/09e542d0-deec-449b-b1fc-d7a2654daa8b/sportswear-essential-collection-pantalon-de-tejido-fleece-ZHpV9z.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5442d5bc-51fa-421a-889c-d9f8a39e841c/sportswear-essential-collection-pantalon-de-tejido-fleece-ZHpV9z.png"
-        ], "descripcion":"El pantalón de tejido Fleece Nike Sportswear Essential Collection ofrece un diseño para darlo todo.Está confeccionado con un denso tejido Fleece cepillado por la parte posterior y tiene un ajuste holgado para ofrecer una protección cálida con modernas costuras marcadas en la parte frontal."
+        ], "description":"El pantalón de tejido Fleece Nike Sportswear Essential Collection ofrece un diseño para darlo todo.Está confeccionado con un denso tejido Fleece cepillado por la parte posterior y tiene un ajuste holgado para ofrecer una protección cálida con modernas costuras marcadas en la parte frontal."
     }, 
     {
-        "id":"32", "categoria":"clothing", "stock":"7", "new":"True",
-        "genero":"women", "tallas":["S", "M", "L" ], "precio":"29.99",
-        "colores":["negro"], "nombre":"Nike Pro 365", 
-        "imagenes":[
+        "id":"32", "category":"clothing", "stock":"7", "new":"true",
+        "gender":"women", "sizes":["S", "M", "L" ], "price":"29.99",
+        "colors":["negro"], "name":"Nike Pro 365", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/aa093ad2-3f9d-4ea4-ab20-143d491ad043/pro-365-pantalon-corto-de-13-cm-bqXQPw.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/121fbd0d-5dbf-446f-b6bf-b96ddafb5ffc/pro-365-pantalon-corto-de-13-cm-bqXQPw.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/204954d0-6430-48d9-ac3b-12488e713964/pro-365-pantalon-corto-de-13-cm-bqXQPw.png"
-        ], "descripcion":"El pantalón corto Nike Pro 365 te envuelve con un tejido elástico que cuenta con tecnología Dri-FIT para mantener la sujeción y la transpirabilidad durante los entrenamientos más intensos. Este producto se ha confeccionado con, al menos, un 50 % de fibras de poliéster reciclado."
+        ], "description":"El pantalón corto Nike Pro 365 te envuelve con un tejido elástico que cuenta con tecnología Dri-FIT para mantener la sujeción y la transpirabilidad durante los entrenamientos más intensos. Este producto se ha confeccionado con, al menos, un 50 % de fibras de poliéster reciclado."
     }, 
     
 
     {
-        "id":"33", "categoria":"clothing", "stock":"15", "new":"False",
-        "genero":"children", "tallas":["2T", "3T", "4T" ], "precio":"49.99",
-        "colores":["rojo"], "nombre":"Nike chandal rojo", 
-        "imagenes":[
+        "id":"33", "category":"clothing", "stock":"15", "new":"false",
+        "gender":"children", "sizes":["2T", "3T", "4T" ], "price":"49.99",
+        "colors":["rojo"], "name":"Nike chandal rojo", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0df56c4e-b713-41f3-ae47-56c5bcda2740/chandal-bblWJ3.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/72258af9-94a8-411a-8226-164c21446fe9/chandal-bblWJ3.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a7ff5c76-6fb7-4e69-b89c-f7642c846463/chandal-bblWJ3.png"
-        ], "descripcion":"El chándal Nike incluye una chaqueta y un pantalón realzados con paneles llamativos para un look coordinado. El diseño de chevron del pecho se inspira en la clásica chaqueta Windrunner."
+        ], "description":"El chándal Nike incluye una chaqueta y un pantalón realzados con paneles llamativos para un look coordinado. El diseño de chevron del pecho se inspira en la clásica chaqueta Windrunner."
     }, 
     {
-        "id":"34", "categoria":"clothing", "stock":"20", "new":"False",
-        "genero":"children", "tallas":["2T", "3T", "4T" ], "precio":"49.99",
-        "colores":["rosa"], "nombre":"Nike chandal Rosa", 
-        "imagenes":[
+        "id":"34", "category":"clothing", "stock":"20", "new":"false",
+        "gender":"children", "sizes":["2T", "3T", "4T" ], "price":"49.99",
+        "colors":["rosa"], "name":"Nike chandal Rosa", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f8d6772b-d3e4-482d-ace4-d866ab6a4db3/chandal-dbgz1Q.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a76ac949-7bc5-46c3-8457-d2fd81c9da11/chandal-dbgz1Q.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d5800ccb-ac49-4c6e-8a3b-4349ade29859/chandal-dbgz1Q.png"
-        ], "descripcion":"El chándal Nike incluye una chaqueta y un pantalón realzados con paneles llamativos para un look coordinado. El diseño de chevron del pecho se inspira en la clásica chaqueta Windrunner."
+        ], "description":"El chándal Nike incluye una chaqueta y un pantalón realzados con paneles llamativos para un look coordinado. El diseño de chevron del pecho se inspira en la clásica chaqueta Windrunner."
     }, 
     {
-        "id":"35", "categoria":"clothing", "stock":"25", "new":"False",
-        "genero":"children", "tallas":["2T", "3T", "4T"], "precio":"44.99",
-        "colores":["blanco", "azul", "negro"], "nombre":"Nike Conjunto rosa", 
-        "imagenes":[
+        "id":"35", "category":"clothing", "stock":"25", "new":"false",
+        "gender":"children", "sizes":["2T", "3T", "4T"], "price":"44.99",
+        "colors":["blanco", "azul", "negro"], "name":"Nike Conjunto rosa", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1f1bf553-80a0-4adb-84e4-db3e7ae17fe2/conjunto-de-sudadera-y-pantalon-XwGWDj.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/24ce06dc-c728-4b8d-a6a1-05f7322e6f21/conjunto-de-sudadera-y-pantalon-XwGWDj.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/579a278d-3eda-4386-81da-de83856098eb/conjunto-de-sudadera-y-pantalon-XwGWDj.png"
-        ], "descripcion":"El conjunto de sudadera y pantalón Nike está confeccionado con tejidos ligeros que ofrecen suavidad, ventilación y comodidad durante todo el día."
+        ], "description":"El conjunto de sudadera y pantalón Nike está confeccionado con tejidos ligeros que ofrecen suavidad, ventilación y comodidad durante todo el día."
     }, 
     {
-        "id":"36", "categoria":"clothing", "stock":"10", "new":"True",
-        "genero":"children", "tallas":["XS", "S", "M" ], "precio":"34.99 ",
-        "colores":["blanco", "azul", "negro"], "nombre":"Nike Sportswear Club", 
-        "imagenes":[
+        "id":"36", "category":"clothing", "stock":"10", "new":"true",
+        "gender":"children", "sizes":["XS", "S", "M" ], "price":"34.99 ",
+        "colors":["blanco", "azul", "negro"], "name":"Nike Sportswear Club", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3e355b15-d3a7-4f67-843b-343be475e20c/sportswear-club-sudadera-de-chandal-nino-GWXDrH.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a2d527be-3821-4ea4-8c5b-895c201d577b/sportswear-club-sudadera-de-chandal-nino-GWXDrH.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/07e78ddb-b3fd-4f69-859b-3bab76fa8c41/sportswear-club-sudadera-de-chandal-nino-GWXDrH.png"
-        ], "descripcion":"Esta sudadera de chándal clásica es ideal para mantener la sencillez, destacar y combinar fácilmente con otras prendas. El suave tejido Fleece cepillado mantiene la comodidad, y el espacio adicional en el cuerpo y las caderas ofrece libertad de movimiento al jugar."
+        ], "description":"Esta sudadera de chándal clásica es ideal para mantener la sencillez, destacar y combinar fácilmente con otras prendas. El suave tejido Fleece cepillado mantiene la comodidad, y el espacio adicional en el cuerpo y las caderas ofrece libertad de movimiento al jugar."
     }, 
     {
-        "id":"37", "categoria":"clothing", "stock":"7", "new":"False",
-        "genero":"children", "tallas":["XS", "S", "M"], "precio":"44.99 ",
-        "colores":["blanco", "azul", "negro"], "nombre":"Nike Sportswear", 
-        "imagenes":[
+        "id":"37", "category":"clothing", "stock":"7", "new":"false",
+        "gender":"children", "sizes":["XS", "S", "M"], "price":"44.99 ",
+        "colors":["blanco", "azul", "negro"], "name":"Nike Sportswear", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/162657e4-760a-43b4-8162-59855431ae37/sportswear-sudadera-de-chandal-de-tejido-fleece-nino-3W45Gj.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3741e8ed-747f-4bdd-af61-991fdca224e1/sportswear-sudadera-de-chandal-de-tejido-fleece-nino-3W45Gj.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cada0d3b-fb37-4820-b861-de8b7689a298/sportswear-sudadera-de-chandal-de-tejido-fleece-nino-3W45Gj.png"
-        ], "descripcion":"Esta sudadera de chándal con capucha es ideal para disfrutar de una prenda cálida sobre la marcha. El tejido Fleece cepillado es suave y transpirable para ofrecer calidez en la próxima aventura."
+        ], "description":"Esta sudadera de chándal con capucha es ideal para disfrutar de una prenda cálida sobre la marcha. El tejido Fleece cepillado es suave y transpirable para ofrecer calidez en la próxima aventura."
     }, 
 
 
     {
-        "id":"38", "categoria":"accessory", "stock":"7", "new":"False",
-        "genero":"men", "tallas":["Única"], "precio":"79.99",
-        "colores":["negro"], "nombre":"Nike Utility Elite", 
-        "imagenes":[
+        "id":"38", "category":"accessory", "stock":"7", "new":"false",
+        "gender":"men", "sizes":["Única"], "price":"79.99",
+        "colors":["negro"], "name":"Nike Utility Elite", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/i1-4356ff52-793f-441e-adbd-59524a61150c/utility-elite-mochila-de-entrenamiento-30jnXd.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/i1-879fc2d1-56d7-472c-8dcb-19b5d74f47aa/utility-elite-mochila-de-entrenamiento-30jnXd.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/i1-fcd425c8-96aa-4254-9eb1-9be1b285dffb/utility-elite-mochila-de-entrenamiento-30jnXd.png"
-        ], "descripcion":"La mochila Nike Utility Elite mantiene tu equipación cerca, segura y organizada durante los trayectos para ir o venir de los entrenamientos. Las correas acolchadas te aportan comodidad durante todo el día y la mochila se abre completamente para que puedas acceder fácilmente a tus pertenencias."
+        ], "description":"La mochila Nike Utility Elite mantiene tu equipación cerca, segura y organizada durante los trayectos para ir o venir de los entrenamientos. Las correas acolchadas te aportan comodidad durante todo el día y la mochila se abre completamente para que puedas acceder fácilmente a tus pertenencias."
     }, 
     {
-        "id":"39", "categoria":"accessory", "stock":"7", "new":"True",
-        "genero":"men", "tallas":["Única"], "precio":"59.99",
-        "colores":["gris", "negro"], "nombre":"Nike Sportswear Essentials", 
-        "imagenes":[
+        "id":"39", "category":"accessory", "stock":"7", "new":"true",
+        "gender":"men", "sizes":["Única"], "price":"59.99",
+        "colors":["gris", "negro"], "name":"Nike Sportswear Essentials", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cfac5ebc-8dba-40e7-a1c2-a21e81fed3ef/sportswear-essentials-mochila-KmJsfD.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3ceacdc2-2e83-4c22-b38c-0d42f40873f4/sportswear-essentials-mochila-KmJsfD.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2fc8b975-a134-4587-97de-f45ac2e2d157/sportswear-essentials-mochila-KmJsfD.png"
-        ], "descripcion":"Con un compartimento grande para el portátil, un portateléfono y un compartimento principal espacioso, esta mochila se ha diseñado para llevar tus cosas. El ribete tonal destaca la confección, mientras que los detalles repelentes al agua ayudan a proteger tus cosas incluso con mal tiempo. Este producto se ha confeccionado con, al menos, un 50 % de fibras de poliéster reciclado."
+        ], "description":"Con un compartimento grande para el portátil, un portateléfono y un compartimento principal espacioso, esta mochila se ha diseñado para llevar tus cosas. El ribete tonal destaca la confección, mientras que los detalles repelentes al agua ayudan a proteger tus cosas incluso con mal tiempo. Este producto se ha confeccionado con, al menos, un 50 % de fibras de poliéster reciclado."
     }, 
     {
-        "id":"40", "categoria":"accessory", "stock":"7", "new":"False",
-        "genero":"unisex", "tallas":["Única"], "precio":"27.99 ",
-        "colores":["rosa", "azul", "negro"], "nombre":"Nike Heritage", 
-        "imagenes":[
+        "id":"40", "category":"accessory", "stock":"7", "new":"false",
+        "gender":"unisex", "sizes":["Única"], "price":"27.99 ",
+        "colors":["rosa", "azul", "negro"], "name":"Nike Heritage", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/31e8eb1d-7f1f-4d1a-b50f-f1fac68a7634/heritage-2-mochila-ndMcpP.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b4b71a31-9363-48b0-a314-68d8eaa5fc6d/heritage-2-mochila-ndMcpP.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/14c2d3b1-0ce9-4a7c-9482-4783265676b2/heritage-2-mochila-ndMcpP.png"
-        ], "descripcion":"La mochila Nike Heritage ofrece espacio para toda tu equipación. El amplio compartimento principal cuenta con una funda para mantener los portátiles de hasta 15 pulgadas al alcance de la mano. Dos bolsillos para accessorys con cremallera para mantener la equipación organizada y al alcance de la mano. Este producto se ha confeccionado con, al menos, un 65 % de fibras de poliéster reciclado."
+        ], "description":"La mochila Nike Heritage ofrece espacio para toda tu equipación. El amplio compartimento principal cuenta con una funda para mantener los portátiles de hasta 15 pulgadas al alcance de la mano. Dos bolsillos para accessorys con cremallera para mantener la equipación organizada y al alcance de la mano. Este producto se ha confeccionado con, al menos, un 65 % de fibras de poliéster reciclado."
     }, 
     {
-        "id":"41", "categoria":"accessory", "stock":"7", "new":"False",
-        "genero":"unisex", "tallas":["Única"], "precio":"11.99",
-        "colores":["negro"], "nombre":"Nike Brasilia 9,5", 
-        "imagenes":[
+        "id":"41", "category":"accessory", "stock":"7", "new":"false",
+        "gender":"unisex", "sizes":["Única"], "price":"11.99",
+        "colors":["negro"], "name":"Nike Brasilia 9,5", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/6fc125a8-87c7-48ca-bc93-07e924012d6c/brasilia-95-saco-de-gimnasia-de-entrenamiento-vZDTMM.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ad76fb0d-8481-4f3c-9442-e7d6be9749bc/brasilia-95-saco-de-gimnasia-de-entrenamiento-vZDTMM.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a0260873-8f39-40a2-97bb-9405858ff85b/brasilia-95-saco-de-gimnasia-de-entrenamiento-vZDTMM.png"
-        ], "descripcion":"El saco de gimnasia Nike Brasilia cuenta con un diseño ligero y minimalista con una parte superior abierta para meter tu equipación de entrenamiento vayas donde vayas. Las correas para los hombros funcionan también como cordón para proteger tus cosas. Este producto se ha confeccionado con, al menos, un 65 % de fibras de poliéster reciclado."
+        ], "description":"El saco de gimnasia Nike Brasilia cuenta con un diseño ligero y minimalista con una parte superior abierta para meter tu equipación de entrenamiento vayas donde vayas. Las correas para los hombros funcionan también como cordón para proteger tus cosas. Este producto se ha confeccionado con, al menos, un 65 % de fibras de poliéster reciclado."
     }, 
     {
-        "id":"42", "categoria":"accessory", "stock":"7", "new":"False",
-        "genero":"men", "tallas":["Única"], "precio":"27.99",
-        "colores":["blanco", "negro"], "nombre":"Jordan 12", 
-        "imagenes":[
+        "id":"42", "category":"accessory", "stock":"7", "new":"false",
+        "gender":"men", "sizes":["Única"], "price":"27.99",
+        "colors":["blanco", "negro"], "name":"Jordan 12", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ce821638-f1ef-42eb-b6ff-b66f745c1f01/jordan-bolsa-tipo-bandolera-t2TkFK.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a6fc4aca-8acc-4487-8573-4f3f2c859cff/jordan-bolsa-tipo-bandolera-t2TkFK.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cf288651-9acc-42e2-9fe5-f5b3f8e3c9cf/jordan-air-jordan-bolsa-tipo-bandolera-t2TkFK.png"
-        ], "descripcion":"La bolsa tipo bandolera Air Jordan te permite guardar las cosas pequeñas que importan mientras te desplazas."
+        ], "description":"La bolsa tipo bandolera Air Jordan te permite guardar las cosas pequeñas que importan mientras te desplazas."
     }, 
     {
-        "id":"43", "categoria":"accessory", "stock":"7", "new":"True",
-        "genero":"children", "tallas":["Única"], "precio":"19.99",
-        "colores":["azul", "negro"], "nombre":"Nike Brasilia JDI", 
-        "imagenes":[
+        "id":"43", "category":"accessory", "stock":"7", "new":"true",
+        "gender":"children", "sizes":["Única"], "price":"19.99",
+        "colors":["azul", "negro"], "name":"Nike Brasilia JDI", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/26dd4c96-bca1-46a3-9203-f5cdc22b681b/brasilia-jdi-mochila-mini-nino-a-ldqCP5.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cbfe7b38-79f8-47ff-82f1-5697e035aee4/brasilia-jdi-mochila-mini-nino-a-ldqCP5.png",
             "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/36e9f232-06dd-45c0-9774-93ef02329c34/brasilia-jdi-mochila-mini-nino-a-ldqCP5.png"
-        ], "descripcion":"La mochila Nike Brasilia JDI tiene el tamaño perfecto para guardar los básicos. Cuenta con bolsillos con cremallera, espacio para guardar la botella de agua y correas cómodas para transportarla con facilidad. El estampado animal moteado es de todo menos básico."
+        ], "description":"La mochila Nike Brasilia JDI tiene el tamaño perfecto para guardar los básicos. Cuenta con bolsillos con cremallera, espacio para guardar la botella de agua y correas cómodas para transportarla con facilidad. El estampado animal moteado es de todo menos básico."
     }, 
     {
-        "id":"44", "categoria":"accessory", "stock":"7", "new":"False",
-        "genero":"children", "tallas":["Única"], "precio":"13.99 ",
-        "colores":["blanco", "negro"], "nombre":"Nike Heritage86", 
-        "imagenes":[
+        "id":"44", "category":"accessory", "stock":"7", "new":"false",
+        "gender":"children", "sizes":["Única"], "price":"13.99 ",
+        "colors":["blanco", "negro"], "name":"Nike Heritage86", 
+        "images":[
             "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/v2z0y2bf0pn5lsymjrx0/heritage86-gorra-regulable-nino-a-QpVFhK.png",
             "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/lmunxtadipdsjtl7fteh/heritage86-gorra-regulable-nino-a-QpVFhK.png",
             "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/aa82sksvges3yjqivmkb/heritage86-gorra-regulable-nino-a-QpVFhK.png"
-        ], "descripcion":"La gorra Nike Heritage86 está confeccionada con un tejido que capilariza el sudor para mantener la transpirabilidad y la comodidad.Cuenta con un diseño clásico con una correa regulable para ofrecer un ajuste perfecto.Este producto se ha confeccionado con, al menos, un 50 % de fibras de poliéster reciclado."
+        ], "description":"La gorra Nike Heritage86 está confeccionada con un tejido que capilariza el sudor para mantener la transpirabilidad y la comodidad.Cuenta con un diseño clásico con una correa regulable para ofrecer un ajuste perfecto.Este producto se ha confeccionado con, al menos, un 50 % de fibras de poliéster reciclado."
     }
 ]

@@ -33,7 +33,7 @@ const NavBar = () => {
 
                             <NavDropdown.Item as={NavLink} to='/itemListCont/shoes'>Shoes</NavDropdown.Item>
                             <NavDropdown.Item as={NavLink} to='/itemListCont/clothing'>Clothing</NavDropdown.Item>
-                            <NavDropdown.Item as={NavLink} to='/itemListCont/acce'>Accessories</NavDropdown.Item>
+                            <NavDropdown.Item as={NavLink} to='/itemListCont/accessory'>Accessories</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item as={NavLink} to='/itemListCont/all'>All</NavDropdown.Item>
                             

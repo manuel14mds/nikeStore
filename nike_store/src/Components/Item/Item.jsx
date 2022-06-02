@@ -12,10 +12,10 @@ const Item = ({product}) => {
     return (
 
         <div className="cardItem text-white bg-dark mb-3">
-            <img src={product.imagenes[0]} className="card-img-top" alt="img" />
+            <img src={product.images[0]} className="card-img-top" alt="img" />
             <div className="card-body fw-bold">
-                <h5 className="card-title text-start">{product.nombre}</h5>
-                <p className="card-text text-start">{product.precio} €</p>
+                <h5 className="card-title text-start">{product.name}</h5>
+                <p className="card-text text-start">{product.price} €</p>
                 <div className="botones d-flex flex-row">
                     <NavLink to={`/itemDetailContainer/${product.id}`} className="btn btn-light">See</NavLink>
                     <NavLink to={`/itemDetailContainer/${product.id}`}className="icon">{heartIco}</NavLink>

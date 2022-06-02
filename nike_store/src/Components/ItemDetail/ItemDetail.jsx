@@ -8,7 +8,7 @@ import { useParams } from 'react-router-dom'
 import Interchange from '../Interchange/interchange'
 
 import { useCartContext } from '../../Context/CartContext'
-
+import { useHelperContext } from '../../Context/HelperContext'
 
 
 function concat(list){
@@ -20,24 +20,28 @@ function concat(list){
 }
 
 
-const ItemDetail = () => {
+const ItemDetail = ({product}) => {
     
-    const{itemId} = useParams()
-    
-    const [product, setProduct] = useState({})
+/*     
+    const [product, setProduct] = useState({}) */
     
     const [loading, setLoading] = useState(true)
     
-    const {addToCart}= useCartContext()
+    const {addToCart} = useCartContext()
+
     
     function onAdd(count){        
         addToCart({...product, count})
     }
 
-
-    useEffect(() => {
+    /* useEffect(() => {
         setLoading(true)
-        setTimeout(()=>{
+        setProduct(findProduct(itemId))
+        console.log('holaaaaaaaaaaaa')
+        console.log(findProduct(itemId)) */
+        
+        /* setTimeout(()=>{
+
             fetch('../../assets/data/data.json')
             .then(response => response.json())
             .then(data => {
@@ -47,10 +51,31 @@ const ItemDetail = () => {
             })
             .catch((err)=> console.log(err))
             .finally(()=>setLoading(false))
+        }, 2000) */
+
+        /* setTimeout(()=>{
+            setLoading(false)
         }, 2000)
 
-    },[itemId])
+    },[itemId]) */
 
+
+
+    /* useEffect(() => {
+        setLoading(true)
+        const db = getFirestore()
+        const dbQuery = doc(db, "productos", "HIL5cg457lxUnix7aYrd")
+        getDoc(dbQuery)
+        .then(resp => setProduct({ id: resp.id, ... resp.data() }))
+        .finally(setLoading(false))
+    }, [itemId])
+    console.log(product)  */
+
+
+
+    setTimeout(()=>{
+        setLoading(false)
+    }, 2000)
 
     return (
         <>
@@ -63,48 +88,48 @@ const ItemDetail = () => {
                 <div className="itemDetail">
 
                     <div className="item head">
-                        <h1>{product.nombre}</h1>
+                        <h1>{product.name}</h1>
                     </div>
 
                     <div className="item imgCont">
 
                         <div className="itemImgCont1 itemImgCont">
-                            <img src={product.imagenes[0]} alt="" />
+                            <img src={product.images[0]} alt="" />
                         </div>
 
                         <div className="itemImgCont2 itemImgCont">
-                            <img src={product.imagenes[1]} alt="" />
+                            <img src={product.images[1]} alt="" />
                         </div>
 
                         <div className="itemImgCont3 itemImgCont">
-                            <img src={product.imagenes[2]} alt="" />
+                            <img src={product.images[2]} alt="" />
                         </div>
 
                     </div>
 
                     <div className="item info">
                         <h2>Product Detail</h2>
-                        <h3>{product.nombre}</h3>
-                        <h4>{product.precio} €</h4>
+                        <h3>{product.name}</h3>
+                        <h4>{product.price} €</h4>
 
                         <div className="colors">
                             <p className='title'>colors:</p>
-                            <p className='listColor'>{concat(product.colores)}</p>
+                            <p className='listColor'>{concat(product.colors)}</p>
                         </div>
 
                         <div className="sizes">
                             <p className='title'>sizes:</p>
-                            <p className='listSizes'>{concat(product.tallas)}</p>
+                            <p className='listSizes'>{concat(product.sizes)}</p>
                         </div>
 
                         <div className="Infocategory">
                             <p className='title'>category:</p>
-                            <p className='listCategory'>{product.categoria}</p>
+                            <p className='listCategory'>{product.category}</p>
                         </div>
                         
                         <div className="gender">
                             <p className='title'>gender:</p>
-                            <p className='listGender'>{product.genero}</p>
+                            <p className='listGender'>{product.gender}</p>
                         </div>
 
                         {/* <ItemCount stock={product.stock} onAdd={cart}  /> */}
@@ -113,7 +138,7 @@ const ItemDetail = () => {
 
                         <div className='overView'>
                             <h2>overview</h2>
-                            <p>{product.descripcion}</p>
+                            <p>{product.description}</p>
                         </div>
 
                     </div>

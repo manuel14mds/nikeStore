@@ -6,28 +6,23 @@ import { useEffect } from "react"
 import { Spinner } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
 import Item from "../Item/Item"
+import { useHelperContext } from "../../Context/HelperContext"
 
 
 const CardItem = () => {
     const heartIco = <FontAwesomeIcon icon={faHeart} />
-    const [newItems, setNewItems] = useState([])
     const [loading, setLoading] = useState(true)
+    const { updateNewlistProducts, listProduct} = useHelperContext()
     
 
     useEffect(() => {
+        setLoading(true)
+        updateNewlistProducts()
         setTimeout(()=>{
-            fetch('../../assets/data/data.json')
-            .then(response => response.json())
-            .then(data => {
-                setNewItems(
-                    data.filter(item => item.new === 'True')
-                )
-            })
-            .catch((err)=> console.log(err))
-            .finally(()=>setLoading(false)) 
+            setLoading(false)
         }, 500)
 
-    }, [])
+    },[])
 
 
     return (
@@ -38,7 +33,7 @@ const CardItem = () => {
                         <span className="visually-hidden">Loading...</span>
                     </Spinner>
                     :
-                    newItems.map((item) => <Item key={item.id} product={item}/>)
+                    listProduct.map((item) => <Item key={item.id} product={item}/>)
 
                     
             }

@@ -8,10 +8,10 @@ import CardHomeContainer from "../CardHomeContainer/CardHomeContainer"
 
 
 const HomeContentContainer = () => {
-  /* const [lista, setLista]= useState([])
+  const [lista, setLista]= useState([])
 
 
-  function subirProductos(){
+  /* function subirProductos(){
     
   
     fetch('../../assets/data/data.json')

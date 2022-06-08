@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 import { addDoc, collection, getFirestore } from 'firebase/firestore'
 
 const Cart = () => {
-    const { cartList, emptyCart, totalCart, total } = useCartContext()
+    const { cartList, emptyCart, totalCart, total, stockDecrease } = useCartContext()
     const [empty, setEmpty] = useState(true)
 
     useEffect(()=>{
@@ -27,11 +27,15 @@ const Cart = () => {
         console.log(objOrder)
 
         const db = getFirestore()
-        const queryCollection = collection(db, 'group')
+        const queryCollection = collection(db, 'purchase')
         addDoc(queryCollection, objOrder)
         .then(resp => console.log(resp))
         .catch(err =>console.log(err))
-        .finally(emptyCart())
+        .finally(()=>{
+                emptyCart()
+                stockDecrease()
+            }
+        )
     }
 
     return (

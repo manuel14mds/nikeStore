@@ -53,7 +53,6 @@ const HelperContextProvider = ({ children }) => {
             .then(resp => setListProduct(resp.docs.map(item => ({ id: item.id, ...item.data() }))))
             .catch((err) => console.log(err)) */
 
-
     }
 
     //receives a category name

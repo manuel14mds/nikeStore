@@ -11,17 +11,15 @@ import {getFirestore, doc, getDoc, collection, getDocs, query, where } from 'fir
 
 import CardHomeContainer from '../CardHomeContainer/CardHomeContainer'
 import './ItemListContainer.css'
+import CategoryHome from '../../Components/CategoryHome/CategoryHome'
+import ItemLoading from '../../Components/Item/ItemLoading'
 
 
 const ItemListContainer = () => {
     const{filter} = useParams()
+    
     const {listProduct, updateProductList} = useHelperContext()
 
-
-    const [listItem, setListItem] = useState([])
-    const [loading, setLoading] = useState(true)
-
-    
     //++++++++++++++++++++++++++++ traer un producto de fireStore ++++++++++++++++++++++++++++++++++++++++++
     /* const [product, setProduct]=useState({})
 
@@ -82,7 +80,6 @@ const ItemListContainer = () => {
         }, 500)
 
     }, [filter]) */
-
     useEffect(() => {
         updateProductList(filter)
     }, [filter])
@@ -90,8 +87,8 @@ const ItemListContainer = () => {
     return (
         <div className="ItemListContainer">
             <TitleList filter={filter}/>
-            <Itemlist list={listProduct}/>
-            <CardHomeContainer/>
+            <Itemlist filter={filter}/>
+            <CategoryHome/>
 
         </div>
     )

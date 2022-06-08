@@ -1,3 +1,4 @@
+import { collection, documentId, getDocs, getFirestore, query, where, writeBatch } from 'firebase/firestore'
 import { createContext, useContext, useState } from 'react'
 import ItemCount from '../Components/ItemCount/ItemCount'
 
@@ -6,14 +7,14 @@ const CartContext = createContext([])
 export const useCartContext = () => useContext(CartContext)
 
 const CartContextProvider = ({ children }) => {
-    //crear estados y funciones  globales
+
     const [cartList, setCartList] = useState([])
     const [prodUnits, setProdUnits] = useState(0)
     const [totalCart, setTotalCart] = useState(0.0)
 
-    function total(){
-        let total= 0.0
-        for(const item of cartList){
+    function total() {
+        let total = 0.0
+        for (const item of cartList) {
             total += (item.price * item.count)
         }
         setTotalCart(total)
@@ -60,7 +61,7 @@ const CartContextProvider = ({ children }) => {
         const newCart = [...cartList]
         let index = newCart.findIndex((el) => el.id === id)
 
-        setProdUnits(prodUnits-newCart[index].count)//descuento los productos del contador de productos
+        setProdUnits(prodUnits - newCart[index].count)//descuento los productos del contador de productos
 
         newCart.splice(index, 1)
 
@@ -73,12 +74,32 @@ const CartContextProvider = ({ children }) => {
         setTotalCart(0.0)
     }
 
-    
+    async function stockDecrease() {
+        // actualizar el stock
+        const db = getFirestore()
+        const queryCollectionStock = collection(db, 'products')
+
+        const queryActulizarStock = await query(
+            queryCollectionStock, //                   ['jlksjfdgl','asljdfks'] -> ejemplo del map ,  
+            where(documentId(), 'in', cartList.map(it => it.id)) // in es que estén en ..         
+        )
+
+        const batch = writeBatch(db)
+
+        await getDocs(queryActulizarStock)
+            .then(resp => resp.docs.forEach(res => batch.update(res.ref, {
+                stock: res.data().stock - cartList.find(item => item.id === res.id).count
+            })))
+            .finally(() => console.log('actulalizado'))
+
+        batch.commit()
+
+    }
 
     return (
         <CartContext.Provider value={
             {
-                cartList, addToCart, emptyCart, prodUnits, deleteItem, totalCart, total
+                cartList, addToCart, emptyCart, prodUnits, deleteItem, totalCart, total, stockDecrease
             }}>
 
             {children}

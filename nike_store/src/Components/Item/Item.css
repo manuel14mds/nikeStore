@@ -4,7 +4,10 @@
     max-height: 20rem;
     border-radius: 10px;
 }
-
+.loading{
+    width: 9rem !important;
+    height: 20rem;
+}
 .cardItem .card-body .card-title{
     font-size: 0.8rem;
 }
@@ -32,5 +35,9 @@
     .cardItem{
         max-width: 11rem;
         max-height: 22rem;
+    }
+    .loading{
+        width: 11rem !important;
+        height: 22rem !important;
     }
 }

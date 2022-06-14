@@ -11,7 +11,7 @@ const HomeContentContainer = () => {
   const [lista, setLista]= useState([])
 
 
-  /* function subirProductos(){
+  function subirProductos(){
     
   
     fetch('../../assets/data/data.json')
@@ -26,7 +26,7 @@ const HomeContentContainer = () => {
     for(const item of lista){
 
       newObj = {
-        category: item.category, stock: parseInt(item.stock), new: item.new ,
+        category: item.category, stock: (parseInt(item.stock)*5), new: item.new ,
             gender: item.gender, sizes:item. sizes, price: parseFloat(item.price),
             colors:item.colors, name:item.name, 
             images:item.images, description: item.description
@@ -39,12 +39,12 @@ const HomeContentContainer = () => {
             .catch(err =>console.log(err))
             .finally(console.log('subido'))
     }
-  } */
+  }
 
   return (
     <>
       <JumboTron />
-      {/* <button onClick={()=>(subirProductos())} >Subir productos</button> */}
+      <button onClick={()=>(subirProductos())} >Subir productos</button>
       <CardHomeContainer />
       <CategoryHome/>
     </>

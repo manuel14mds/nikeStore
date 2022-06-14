@@ -21,7 +21,7 @@ const HelperContextProvider = ({ children }) => {
             .catch((err) => console.log(err))
 
         } else if (filter === "men" || filter === "women") {
-            const quieryCollectionFilter =  query(quieryCollection, where('gender', '==', filter))
+            const quieryCollectionFilter =  query(quieryCollection, where('gender', 'in', [filter, 'unisex']))
             getDocs(quieryCollectionFilter)
             .then(resp => setListProduct(resp.docs.map(item =>({ id: item.id, ... item.data() }) )))
             .catch((err)=> console.log(err))

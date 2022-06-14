@@ -36,8 +36,8 @@ const CategoryHome = () => {
             <div className="card" >
                 <img src={shoe} className="card-img-top" alt="Shoe" />
                 <div className="card-body">
-                    <h5 className="card-title">Shoe</h5>
-                    <NavLink to='/itemListCont/shoe' className="btn btn-dark">See more</NavLink>
+                    <h5 className="card-title">Shoes</h5>
+                    <NavLink to='/itemListCont/shoes' className="btn btn-dark">See more</NavLink>
                 </div>
             </div>
             
@@ -45,14 +45,14 @@ const CategoryHome = () => {
                 <img src={clothing} className="card-img-top" alt="Clothing" />
                 <div className="card-body">
                     <h5 className="card-title">Clothing</h5>
-                    <NavLink to='/itemListCont/cloting' className="btn btn-dark">See more</NavLink>
+                    <NavLink to='/itemListCont/clothing' className="btn btn-dark">See more</NavLink>
                 </div>
             </div>
             <div className="card" >
                 <img src={accessory} className="card-img-top" alt="Accessories" />
                 <div className="card-body">
                     <h5 className="card-title">Accessories</h5>
-                    <NavLink to='/itemListCont/acce' className="btn btn-dark">See more</NavLink>
+                    <NavLink to='/itemListCont/accessory' className="btn btn-dark">See more</NavLink>
                 </div>
             </div>
         </div>

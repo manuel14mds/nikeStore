@@ -9,7 +9,9 @@ import Interchange from '../Interchange/interchange'
 
 import { useCartContext } from '../../Context/CartContext'
 import { useHelperContext } from '../../Context/HelperContext'
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { useFavContext } from '../../Context/FavContext'
 
 function concat(list){
     let string = ""
@@ -28,49 +30,14 @@ const ItemDetail = ({product}) => {
     const [loading, setLoading] = useState(true)
     
     const {addToCart} = useCartContext()
+    
 
     
     function onAdd(count){        
         addToCart({...product, count})
     }
 
-    /* useEffect(() => {
-        setLoading(true)
-        setProduct(findProduct(itemId))
-        console.log('holaaaaaaaaaaaa')
-        console.log(findProduct(itemId)) */
-        
-        /* setTimeout(()=>{
-
-            fetch('../../assets/data/data.json')
-            .then(response => response.json())
-            .then(data => {
-                
-                setProduct(data.find(element => element.id === itemId))
-                
-            })
-            .catch((err)=> console.log(err))
-            .finally(()=>setLoading(false))
-        }, 2000) */
-
-        /* setTimeout(()=>{
-            setLoading(false)
-        }, 2000)
-
-    },[itemId]) */
-
-
-
-    /* useEffect(() => {
-        setLoading(true)
-        const db = getFirestore()
-        const dbQuery = doc(db, "productos", "HIL5cg457lxUnix7aYrd")
-        getDoc(dbQuery)
-        .then(resp => setProduct({ id: resp.id, ... resp.data() }))
-        .finally(setLoading(false))
-    }, [itemId])
-    console.log(product)  */
-
+    
 
 
     setTimeout(()=>{
@@ -132,9 +99,8 @@ const ItemDetail = ({product}) => {
                             <p className='listGender'>{product.gender}</p>
                         </div>
 
-                        {/* <ItemCount stock={product.stock} onAdd={cart}  /> */}
 
-                        <Interchange product={product} onAdd = {onAdd}/>
+                        <Interchange product={product} onAdd = {onAdd} />
 
                         <div className='overView'>
                             <h2>overview</h2>
@@ -142,7 +108,7 @@ const ItemDetail = ({product}) => {
                         </div>
 
                     </div>
-
+                    <ToastContainer />
                 </div>
             }
         </>

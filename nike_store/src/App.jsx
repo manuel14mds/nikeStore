@@ -15,6 +15,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navigate } from 'react-router-dom';
 import CartContextProvider from './Context/CartContext';
 import HelperContextProvider from './Context/HelperContext';
+import FavContextProvider from './Context/FavContext';
+import Favorite from './Components/Favorite/Favorite';
 
 
 
@@ -24,27 +26,30 @@ function App() {
 
     return (
         <CartContextProvider >
-            <BrowserRouter>
-                <div className="App">
-                    <NavBar />
-                    
-                        <HelperContextProvider>
-                            <Routes>
-                                <Route path='/' element={<HomeContentContainer />}/>
-                                <Route path='/cart' element={<Cart />}/>
-                                <Route path='/itemListCont/:filter' element={<ItemListContainer />}/>
-                                <Route path='/itemDetailContainer/:itemId' element={<ItemDetailContainer />}/>
+            <FavContextProvider>
+                <BrowserRouter>
+                    <div className="App">
+                        <NavBar />
+                        
+                            <HelperContextProvider>
+                                <Routes>
+                                    <Route path='/' element={<HomeContentContainer />}/>
+                                    <Route path='/cart' element={<Cart />}/>
+                                    <Route path='/fav' element={<Favorite />}/>
+                                    <Route path='/itemListCont/:filter' element={<ItemListContainer />}/>
+                                    <Route path='/itemDetailContainer/:itemId' element={<ItemDetailContainer />}/>
 
-                                <Route path='/*' element={<Navigate to='/' replace/> }/>
-                                
-                            </Routes>
+                                    <Route path='/*' element={<Navigate to='/' replace/> }/>
+                                    
+                                </Routes>
 
-                        </HelperContextProvider>
-                    
+                            </HelperContextProvider>
+                        
 
-                    <Footer />
-                </div>
-            </BrowserRouter>
+                        <Footer />
+                    </div>
+                </BrowserRouter>
+            </FavContextProvider>
         </CartContextProvider>
     )
 }

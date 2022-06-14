@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
+    
 }
 
 .favWidget .WidgetIco{
@@ -12,14 +12,13 @@
     padding: 0;
 }
 .favWidget .WidgetNum{
-    
     background-color: black;
     width: 25px;
     height: 25px;
     border-radius: 15px;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    margin: 0px 0px 0px 5px;
+    padding: 2px;
     color: rgb(206, 249, 141);
 
 }

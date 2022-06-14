@@ -9,8 +9,8 @@ export const useCartContext = () => useContext(CartContext)
 const CartContextProvider = ({ children }) => {
 
     const [cartList, setCartList] = useState([])
-    const [prodUnits, setProdUnits] = useState(0)
-    const [totalCart, setTotalCart] = useState(0.0)
+    const [prodUnits, setProdUnits] = useState(0) // quantity of products in the cart
+    const [totalCart, setTotalCart] = useState(0.0) // total amount
 
     function total() {
         let total = 0.0
@@ -21,38 +21,45 @@ const CartContextProvider = ({ children }) => {
 
     }
 
+    function updateProductUnit(){
+        if(cartList.length !== 0){
+            let count = 0
+            for(const item of cartList){
+                count += item.count
+            }
+            setProdUnits(count)
+        }
+    }
+
     function addToCart(item) {
         if (cartList.length == 0) {
             setCartList([
                 ...cartList,
                 item
             ])
-            setProdUnits(prodUnits + item.count)
 
-        } else {
-            let inCart = false
-            cartList.forEach(e => {
-                if (e.id === item.id) {
-                    inCart = true
-                }
-            })
-            if (!inCart) {
+
+        } else { // there are products in cartList
+
+            if (!cartList.some( product => product.id === item.id )) { // the product is NOT in cartList
                 setCartList([
                     ...cartList,
                     item
                 ])
-                setProdUnits(prodUnits + item.count)
 
-            } else {
+            } else { // the product IS in cartList
+
                 let newArray = cartList
                 newArray.forEach(e => {
                     if (e.id === item.id) {
-                        e.count += item.count
+                        if((item.count + e.count) > item.stock){
+                            e.count = item.stock
+                        }else{
+                            e.count += item.count
+                        }
                     }
                 })
                 setCartList(newArray)
-                setProdUnits(prodUnits + item.count)
-
             }
         }
     }
@@ -60,8 +67,6 @@ const CartContextProvider = ({ children }) => {
     function deleteItem(id) {
         const newCart = [...cartList]
         let index = newCart.findIndex((el) => el.id === id)
-
-        setProdUnits(prodUnits - newCart[index].count)//descuento los productos del contador de productos
 
         newCart.splice(index, 1)
 
@@ -96,10 +101,27 @@ const CartContextProvider = ({ children }) => {
 
     }
 
+    //increase or decrease per one(1) the items quantity
+    function counter(item, number){
+        if((item.count === 1 && number === -1) || (item.count === item.stock && number === 1)){
+            console.log('operacion invalida')
+        }else{
+
+            let newArray = cartList
+                newArray.forEach(e => {
+                    if (e.id === item.id) {
+                            e.count += number
+                    }
+                })
+                setCartList(newArray)
+                updateProductUnit()
+                total()
+        }
+    }
     return (
         <CartContext.Provider value={
             {
-                cartList, addToCart, emptyCart, prodUnits, deleteItem, totalCart, total, stockDecrease
+                cartList, addToCart, emptyCart, prodUnits, deleteItem, totalCart, total, stockDecrease, updateProductUnit, counter
             }}>
 
             {children}

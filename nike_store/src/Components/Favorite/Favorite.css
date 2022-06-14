@@ -1,0 +1,33 @@
+.containerFavorite{
+    background-color: gray;
+
+}
+.containerFavorite h1{
+    font-family: var(--title-font);
+    font-size: 3rem;
+    text-align: left;
+}
+
+.containerFavorite .containerList{
+    background-color: whitesmoke;
+    height: 400px;
+    max-width: 950px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+.containerFavorite .containerList .btnDelete{
+    background-color: rgb(206, 249, 141);
+    font-family: var(--title-font);
+    height: 50px;
+    width: 110px;
+    margin-top: 10px;
+    align-self: flex-end;
+    
+}
+.containerFavorite .containerList .listFavorite{
+    margin-top: 10px;
+    border-top: 2px dotted black;
+}

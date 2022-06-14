@@ -17,13 +17,16 @@
 }
 .cardItem .card-body .botones{
     display:flex;
-    justify-content: space-evenly;
     align-items: center;
 }
 .cardItem .card-body .botones .btn{
     font-size: 0.7rem !important;
-    
+    padding: 0;
 }
+.cardItem .card-body .botones .see{
+    padding: 5px 9px;
+}
+
 .cardItem .card-body .botones .icon{
     font-size: 0.8rem !important;
     color: white;

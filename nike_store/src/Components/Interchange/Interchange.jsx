@@ -13,7 +13,7 @@ const Interchange = ({product, onAdd}) => {
         <div>
             {
                 inputType == "button" ? 
-                    <ItemCount onAdd={onAdd} stock={product.stock} handleInter={handleInter}/>
+                    <ItemCount onAdd={onAdd} handleInter={handleInter} product={product}/>
                 :
                     <InputCount  />
             }

@@ -4,10 +4,16 @@ import { faBagShopping } from '@fortawesome/free-solid-svg-icons'
 
 import "./CartWidget.css"
 import { useCartContext } from '../../Context/CartContext'
+import { useEffect, useState } from 'react'
 
 const CartWidget = () => {
     const cartIco = <FontAwesomeIcon icon={faBagShopping} />
-    const{prodUnits}=useCartContext()
+    const{prodUnits, updateProductUnit, cartList} = useCartContext()
+
+    useEffect(() => {
+        updateProductUnit()
+    }, [cartList])
+
     return (
         <>
             {

@@ -11,7 +11,6 @@ const HelperContextProvider = ({ children }) => {
     const [listProduct, setListProduct] = useState([])
 
 
-
     //it receives an array and a kind of cartegory
     //set the list of products filtered out
     function arrayFilter(quieryCollection, filter) {

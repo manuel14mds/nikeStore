@@ -6,15 +6,20 @@ import { faBagShopping, faHeart } from '@fortawesome/free-solid-svg-icons'
 import { useState } from "react"
 import { Button } from "react-bootstrap"
 import './ItemCount.css'
+import { useFavContext } from '../../Context/FavContext'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const heartIco = <FontAwesomeIcon icon={faHeart} />
 const cartIco = <FontAwesomeIcon icon={faBagShopping} />
 
-const ItemCount = ({ stock, handleInter, onAdd }) => {
+const ItemCount = ({ handleInter, onAdd, product }) => {
     const [count, setCount] = useState(1)
 
+    const {addFavorite} = useFavContext()
+
     function add() {
-        if (count < stock) {
+        if (count < product.stock) {
             setCount(count + 1)
         }
     }
@@ -24,6 +29,16 @@ const ItemCount = ({ stock, handleInter, onAdd }) => {
             setCount(count - 1)
         }
     }
+
+    const favNotify = () => toast.info('Added to Favorite!', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+    })
 
 
     return (
@@ -35,14 +50,19 @@ const ItemCount = ({ stock, handleInter, onAdd }) => {
                     <div>{count}</div>
                     <Button onClick={add} className='bg-dark'>+</Button>
                 </div>
-                <div className="title">stock: {stock}</div>
+                <div className="title">stock: {product.stock}</div>
             </div>
 
             <div className='detailButton'>
-
-                <Button className='btnCart' variant="dark" onClick={() => {onAdd(count); handleInter()}}>Add Cart {cartIco}</Button>
-                {/* <Button className='btnCart' variant="dark" onClick={handleInter}>Add Cart {cartIco}</Button> */}
-                <Button className='btnFav' variant="light">Add Favorite {heartIco}</Button>
+                {
+                    product.stock===0?
+                    <Button className='btnCart' variant="dark" disabled>Add Cart {cartIco}</Button>
+                    :
+                    <Button className='btnCart' variant="dark" onClick={() => {onAdd(count); handleInter()}}>Add Cart {cartIco}</Button>
+                }
+                
+                
+                <Button className='btnFav' variant="light" onClick={() => {addFavorite(product); favNotify()}}>Add Favorite {heartIco}</Button>
             </div>
 
         </>

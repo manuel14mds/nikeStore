@@ -5,4 +5,11 @@
     justify-content: center;
     gap: 5px;
     max-width: 930px;
+    
+    border-bottom: 2px dotted black;
+}
+@media (min-width: 900px) {
+    .itemList{
+        gap: 11px;
+    }
 }

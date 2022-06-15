@@ -1,12 +1,17 @@
 .cardItem{
     max-width: 9rem;
-    min-width: 8rem;
-    max-height: 20rem;
+    height: 20rem;
     border-radius: 10px;
 }
 .loading{
     width: 9rem !important;
     height: 20rem;
+}
+.cardItem .card-body{
+    height: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .cardItem .card-body .card-title{
     font-size: 0.8rem;
@@ -15,29 +20,38 @@
     color: rgb(206, 249, 141);
     font-size: 0.6rem;
 }
-.cardItem .card-body .botones{
+.cardItem .card-body .buttons{
     display:flex;
-    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: auto;
 }
-.cardItem .card-body .botones .btn{
+.cardItem .card-body .buttons .btn{
     font-size: 0.7rem !important;
     padding: 0;
 }
-.cardItem .card-body .botones .see{
+.cardItem .card-body .buttons .see{
     padding: 5px 9px;
 }
 
-.cardItem .card-body .botones .icon{
+.cardItem .card-body .buttons .icon{
     font-size: 0.8rem !important;
     color: white;
 }
 
 
-@media (min-width: 570px) {
+@media (min-width: 900px) {
 
     .cardItem{
         max-width: 11rem;
-        max-height: 22rem;
+        height: 23rem;
+    }
+    .cardItem .card-body .card-title{
+        font-size: 1rem;
+    }
+    .cardItem .card-body .card-text{
+
+        font-size: 0.8rem;
     }
     .loading{
         width: 11rem !important;

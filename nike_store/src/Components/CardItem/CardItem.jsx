@@ -22,7 +22,7 @@ const CardItem = () => {
 
 
     return (
-        <>
+        <div className="cardItemContainer">
             {
                 loading ?
                     <Spinner animation="border" role="status">
@@ -31,7 +31,7 @@ const CardItem = () => {
                     :
                     listProduct.map((item) => <Item key={item.id} product={item}/>)
             }
-        </>
+        </div>
 
     )
 }

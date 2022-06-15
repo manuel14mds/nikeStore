@@ -10,6 +10,7 @@ import FavWidget from "../FavWidget/FavWidget"
 const NavBar = () => {
     const style_brand = {fontFamily: "sans-serif", fontWeight: "bold", textDecoration:"none"}
     const style_category = {fontFamily: "sans-serif", textDecoration:"none"}
+
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
@@ -20,9 +21,9 @@ const NavBar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
 
-                        <Nav.Link as={NavLink} to='/itemListCont/men' activeclassname='currentCategory' className='text-white' style={style_category}>Men</Nav.Link>
-                        <Nav.Link as={NavLink} to='/itemListCont/women' activeclassname='currentCategory' className='text-white' style={style_category}>Women</Nav.Link>    
-                        <Nav.Link as={NavLink} to='/itemListCont/children' activeclassname='currentCategory' className='text-white' style={style_category}>Children</Nav.Link>    
+                        <Nav.Link as={NavLink} to='/itemListCont/men' style={style_category}>Men</Nav.Link>
+                        <Nav.Link as={NavLink} to='/itemListCont/women' style={style_category}>Women</Nav.Link>    
+                        <Nav.Link as={NavLink} to='/itemListCont/children' style={style_category}>Children</Nav.Link>    
                         
                         <NavDropdown title="Categories" id="collasible-nav-dropdown">
 
@@ -35,8 +36,8 @@ const NavBar = () => {
                         </NavDropdown>
                     </Nav>
                     <Nav>
-                            <Nav.Link as={NavLink} to='/fav'  activeclassname='currentCategory' className='text-white'><FavWidget/></Nav.Link>
-                            <Nav.Link as={NavLink} to='/cart' activeclassname='currentCategory' className='text-white'><CartWidget/></Nav.Link>
+                            <Nav.Link as={NavLink} to='/fav' ><FavWidget/></Nav.Link>
+                            <Nav.Link as={NavLink} to='/cart'><CartWidget/></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

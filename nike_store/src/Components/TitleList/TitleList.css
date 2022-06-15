@@ -15,12 +15,11 @@
 }
 
 .titleList .title{
-    display: grid ;
+    display: flex ;
     place-items: center;
 }
 
 .titleList .title h1{
-    width: 100vw;
     font-family: var(--title-font);
     font-size: 4rem;
     color: white;
@@ -37,5 +36,11 @@
     }
     .titleList .title h1{
         width: 50vw;
+    }
+}
+
+@media (min-width: 910px) {
+    .titleList .imgTittleList{
+        height: 210px;
     }
 }

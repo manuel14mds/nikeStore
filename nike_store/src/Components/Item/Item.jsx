@@ -49,7 +49,7 @@ const Item = ({product}) => {
             <div className="card-body fw-bold">
                 <h5 className="card-title text-start">{product.name}</h5>
                 <p className="card-text text-start">OUT STOCK</p>
-                <div className="botones d-flex flex-row">
+                <div className="buttons d-flex flex-row">
                     <NavLink to={`/itemDetailContainer/${product.id}`} className="btn btn-light see" >See</NavLink>
                     <button onClick={() => {addFavorite(product); favNotify()}} className="icon btn">{heartIco}</button>
                     <button className="icon btn" disabled>{cartIco}</button>
@@ -63,10 +63,10 @@ const Item = ({product}) => {
             <div className="card-body fw-bold">
                 <h5 className="card-title text-start">{product.name}</h5>
                 <p className="card-text text-start">{product.price} €</p>
-                <div className="botones d-flex flex-row">
+                <div className="buttons d-flex flex-row">
                     <NavLink to={`/itemDetailContainer/${product.id}`} className="btn btn-light see">See</NavLink>
                     <button onClick={() => {addFavorite(product); favNotify()}} className="icon btn">{heartIco}</button>
-                    <button onClick={() => {onAdd(1); cardNotify()}} className="icon btn">{cartIco}</button>
+                    <button onClick={() => {onAdd(1); cardNotify()}} className="icon btn ">{cartIco}</button>
                 </div>
             </div>
             <ToastContainer />

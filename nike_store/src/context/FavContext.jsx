@@ -1,4 +1,4 @@
-import { createContext, memo, useContext, useState } from "react"
+import { createContext, useContext, useState } from "react"
 
 const FavContext = createContext([])
 
@@ -15,17 +15,14 @@ const FavContextProvider = ({ children }) => {
     function getFavStorage(){
         let listStorage=JSON.parse(localStorage.getItem("listFavorites"))
 
-        //Si no hay secuencia, que la inicialice en 100
         if(listStorage == null){
             return []
-
         }
         return listStorage
 
     }
 
     function addFavorite(item){
-
         let listStorage = getFavStorage()
 
         if(listStorage.length === 0){

@@ -13,3 +13,8 @@
     color: white;
     font-size: 0.7rem;
 }
+@media (min-width: 670px) {
+    .footer .warning{
+        font-size: 1rem;
+    }
+}

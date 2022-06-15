@@ -1,6 +1,5 @@
 import { collection, documentId, getDocs, getFirestore, query, where, writeBatch } from 'firebase/firestore'
 import { createContext, useContext, useState } from 'react'
-import ItemCount from '../Components/ItemCount/ItemCount'
 
 const CartContext = createContext([])
 
@@ -12,6 +11,7 @@ const CartContextProvider = ({ children }) => {
     const [prodUnits, setProdUnits] = useState(0) // quantity of products in the cart
     const [totalCart, setTotalCart] = useState(0.0) // total amount
 
+    //update the whole amount cart
     function total() {
         let total = 0.0
         for (const item of cartList) {
@@ -79,14 +79,14 @@ const CartContextProvider = ({ children }) => {
         setTotalCart(0.0)
     }
 
+    // Update the product stock in firebase
     async function stockDecrease() {
-        // actualizar el stock
         const db = getFirestore()
         const queryCollectionStock = collection(db, 'products')
 
         const queryActulizarStock = await query(
-            queryCollectionStock, //                   ['jlksjfdgl','asljdfks'] -> ejemplo del map ,  
-            where(documentId(), 'in', cartList.map(it => it.id)) // in es que estén en ..         
+            queryCollectionStock,
+            where(documentId(), 'in', cartList.map(it => it.id))       
         )
 
         const batch = writeBatch(db)
@@ -118,6 +118,7 @@ const CartContextProvider = ({ children }) => {
                 total()
         }
     }
+    
     return (
         <CartContext.Provider value={
             {

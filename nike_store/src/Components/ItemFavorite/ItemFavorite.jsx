@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+
 import { useFavContext } from '../../Context/FavContext'
+
 import './ItemFavorite.css'
 
 const ItemFavorite = ({item}) => {
@@ -23,7 +25,6 @@ const ItemFavorite = ({item}) => {
                     <button onClick={() => deleteFavorite(item.id)} className='btn btn-light'>Delete Product</button>
                 </div>
             </div>
-
         </>
     )
 }

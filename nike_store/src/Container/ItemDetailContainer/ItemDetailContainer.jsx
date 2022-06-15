@@ -1,17 +1,16 @@
 
+import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
+
+import { useHelperContext } from '../../Context/HelperContext'
 import ItemDetail from '../../Components/ItemDetail/ItemDetail'
 import CardHomeContainer from '../CardHomeContainer/CardHomeContainer'
+
 import './ItemDetailContainer.css'
-import { useHelperContext } from '../../Context/HelperContext'
-import { useEffect } from 'react'
-
-
 
 const ItemDetailContainer = () => {
     const { findProduct, product} = useHelperContext()
     const {itemId} = useParams()
-
 
     useEffect(() => {
         findProduct(itemId)

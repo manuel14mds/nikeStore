@@ -1,13 +1,13 @@
 import { memo, useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
-import { useHelperContext } from "../../Context/HelperContext"
+
 import Item from "../Item/Item"
 import ItemLoading from "../Item/ItemLoading"
+import { useHelperContext } from "../../Context/HelperContext"
+
 import './ItemList.css'
 
 const Itemlist = (filter) => {
     const {listProduct} = useHelperContext()
-
 
     const [loading, setLoading] = useState(true)
     const list_2 = [1,2,3,4,5]

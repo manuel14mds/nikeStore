@@ -1,26 +1,20 @@
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 
-
-
-import './App.css'
-import NavBar from './Components/NavBar/NavBar'
-import Footer from './Components/Footer/Footer';
-import HomeContentContainer from './Container/HomeContentContainer/HomeContentContainer';
 import Cart from './Components/Cart/Cart';
-import ItemListContainer from './Container/ItemListContainer/ItemListContainer';
+import Footer from './Components/Footer/Footer';
+import NavBar from './Components/NavBar/NavBar';
+import HomeContentContainer from './Container/HomeContentContainer/HomeContentContainer';
 import ItemDetailContainer from './Container/ItemDetailContainer/ItemDetailContainer';
+import ItemListContainer from './Container/ItemListContainer/ItemListContainer';
+import Favorite from './Components/Favorite/Favorite';
+import CartContextProvider from './Context/CartContext';
+import FavContextProvider from './Context/FavContext';
+import HelperContextProvider from './Context/HelperContext';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navigate } from 'react-router-dom';
-import CartContextProvider from './Context/CartContext';
-import HelperContextProvider from './Context/HelperContext';
-import FavContextProvider from './Context/FavContext';
-import Favorite from './Components/Favorite/Favorite';
-
-
-
-
+import './App.css';
 
 function App() {
 
@@ -40,12 +34,9 @@ function App() {
                                     <Route path='/itemDetailContainer/:itemId' element={<ItemDetailContainer />}/>
 
                                     <Route path='/*' element={<Navigate to='/' replace/> }/>
-                                    
                                 </Routes>
-
                             </HelperContextProvider>
                         
-
                         <Footer />
                     </div>
                 </BrowserRouter>

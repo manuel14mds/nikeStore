@@ -1,10 +1,10 @@
+import { useEffect} from 'react'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBagShopping } from '@fortawesome/free-solid-svg-icons'
-
-import "./CartWidget.css"
 import { useCartContext } from '../../Context/CartContext'
-import { useEffect, useState } from 'react'
+
+import { faBagShopping } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import "./CartWidget.css"
 
 const CartWidget = () => {
     const cartIco = <FontAwesomeIcon icon={faBagShopping} />

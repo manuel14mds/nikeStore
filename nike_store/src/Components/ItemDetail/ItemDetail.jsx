@@ -8,10 +8,10 @@ import { useParams } from 'react-router-dom'
 import Interchange from '../Interchange/interchange'
 
 import { useCartContext } from '../../Context/CartContext'
-import { useHelperContext } from '../../Context/HelperContext'
-import { ToastContainer, toast } from 'react-toastify';
+
+import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { useFavContext } from '../../Context/FavContext'
+
 
 function concat(list){
     let string = ""
@@ -23,22 +23,13 @@ function concat(list){
 
 
 const ItemDetail = ({product}) => {
-    
-/*     
-    const [product, setProduct] = useState({}) */
-    
-    const [loading, setLoading] = useState(true)
-    
-    const {addToCart} = useCartContext()
-    
 
-    
+    const [loading, setLoading] = useState(true)
+    const {addToCart} = useCartContext()
+
     function onAdd(count){        
         addToCart({...product, count})
     }
-
-    
-
 
     setTimeout(()=>{
         setLoading(false)
@@ -98,8 +89,7 @@ const ItemDetail = ({product}) => {
                             <p className='title'>gender:</p>
                             <p className='listGender'>{product.gender}</p>
                         </div>
-
-
+                        
                         <Interchange product={product} onAdd = {onAdd} />
 
                         <div className='overView'>

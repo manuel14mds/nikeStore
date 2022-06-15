@@ -1,10 +1,9 @@
-
 import { useCartContext } from '../../Context/CartContext'
+
 import './ItemCart.css'
 
 const ItemCart = ({item}) => {
     const { deleteItem, counter } = useCartContext()
-
 
     return (
         <div key={item.id} className="item row">

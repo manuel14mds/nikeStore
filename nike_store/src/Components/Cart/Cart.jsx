@@ -1,13 +1,14 @@
-
-import './Cart.css'
-import { useCartContext } from '../../Context/CartContext'
-
-import ItemCart from '../ItemCart/ItemCart'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { addDoc, collection, getFirestore } from 'firebase/firestore'
+
+
+import { useCartContext } from '../../Context/CartContext'
 import CartForm from '../CartForm/CartForm'
 import CartFormOrderCode from '../CartForm/CartFormOrderCode'
+import ItemCart from '../ItemCart/ItemCart'
+
+import './Cart.css'
 
 const Cart = () => {
     const { cartList, emptyCart, totalCart, total, stockDecrease } = useCartContext()
@@ -19,7 +20,7 @@ const Cart = () => {
         cartList.length > 0 ? setEmpty(false) : setEmpty(true)
     }, [cartList])
 
-
+    //creates a purchase order and save it in firebase
     function purchaseOrder(obj) {
         setOrderCode('')
 
@@ -90,7 +91,6 @@ const Cart = () => {
                 <CartForm purchaseOrder={purchaseOrder} />
             }
             <CartFormOrderCode orderCode={orderCode} />
-
         </>
     )
 }

@@ -1,14 +1,14 @@
-import { NavLink } from 'react-router-dom'
-import './Item.css'
+import { NavLink } from 'react-router-dom';
 
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBagShopping, faHeart } from '@fortawesome/free-solid-svg-icons'
-import { useCartContext } from '../../Context/CartContext'
 import { useFavContext } from '../../Context/FavContext';
+import { useCartContext } from '../../Context/CartContext';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBagShopping, faHeart } from '@fortawesome/free-solid-svg-icons';
+import { toast, ToastContainer } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
+import './Item.css';
 
 const heartIco = <FontAwesomeIcon icon={faHeart} />
 const cartIco = <FontAwesomeIcon icon={faBagShopping} />
@@ -26,6 +26,7 @@ const Item = ({product}) => {
         draggable: true,
         progress: undefined,
     })
+
     const favNotify = () => toast.info('Added to Favorite!', {
         position: "top-right",
         autoClose: 3500,

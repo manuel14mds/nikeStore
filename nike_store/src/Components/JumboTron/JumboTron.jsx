@@ -10,7 +10,6 @@ const JumboTron = () => {
             </div>
             <div className="img container-fluid col-sm-6 bg-primary"></div>
         </div>
-        
     )
 }
 

@@ -7,7 +7,6 @@ const CardHomeContainer = () => {
         <div className="cardHomeContainer">
             <div className="new">
                 <h2>New Products</h2>
-                
             </div>
             <div className="cardContainer">
                 <CardItem />

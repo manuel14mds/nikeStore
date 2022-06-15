@@ -1,6 +1,6 @@
-import { useEffect } from 'react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useHelperContext } from '../../Context/HelperContext'
+
 import './TitleList.css'
 
 const TitleList = ({filter}) => {
@@ -14,7 +14,6 @@ const TitleList = ({filter}) => {
         setTitleSrc(
             tittleResource(filter)
         )
-
     }, [filter])
     
     return (

@@ -27,8 +27,6 @@ const ItemLoading = () => {
                 </div>
             </div>
         </div>
-
-        
     )
 }
 

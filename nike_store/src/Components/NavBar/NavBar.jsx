@@ -1,17 +1,12 @@
-import Navbar from "react-bootstrap/Navbar"
-import Container from "react-bootstrap/Container"
-import Nav from "react-bootstrap/Nav"
 import NavDropdown from "react-bootstrap/NavDropdown"
-
 import { NavLink } from "react-router-dom"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBagShopping, faHeart } from '@fortawesome/free-solid-svg-icons'
+import Container from "react-bootstrap/Container"
+import Nav from "react-bootstrap/Nav"
+import Navbar from "react-bootstrap/Navbar"
 import CartWidget from "../CartWidget/CartWidget"
 import FavWidget from "../FavWidget/FavWidget"
 
-const heartIco = <FontAwesomeIcon icon={faHeart} />
-const cartIco = <FontAwesomeIcon icon={faBagShopping} />
 const NavBar = () => {
     const style_brand = {fontFamily: "sans-serif", fontWeight: "bold", textDecoration:"none"}
     const style_category = {fontFamily: "sans-serif", textDecoration:"none"}

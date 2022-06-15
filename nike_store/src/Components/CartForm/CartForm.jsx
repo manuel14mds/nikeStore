@@ -14,7 +14,6 @@ const CartForm = ({purchaseOrder}) => {
 
         purchaseOrder(buyer)
 
-
     }
 
     return (

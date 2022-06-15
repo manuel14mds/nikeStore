@@ -1,14 +1,15 @@
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBagShopping, faHeart } from '@fortawesome/free-solid-svg-icons'
-
-
 import { useState } from "react"
 import { Button } from "react-bootstrap"
-import './ItemCount.css'
+
 import { useFavContext } from '../../Context/FavContext'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
+import { toast } from 'react-toastify'
+import { faBagShopping, faHeart } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import 'react-toastify/dist/ReactToastify.css'
+import './ItemCount.css'
 
 const heartIco = <FontAwesomeIcon icon={faHeart} />
 const cartIco = <FontAwesomeIcon icon={faBagShopping} />
@@ -64,7 +65,6 @@ const ItemCount = ({ handleInter, onAdd, product }) => {
                 
                 <Button className='btnFav' variant="light" onClick={() => {addFavorite(product); favNotify()}}>Add Favorite {heartIco}</Button>
             </div>
-
         </>
     )
 }

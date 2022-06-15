@@ -1,4 +1,5 @@
 import { useState } from "react"
+
 import InputCount from "../InputCount/InputCount"
 import ItemCount from "../ItemCount/ItemCount"
 
@@ -7,8 +8,8 @@ const Interchange = ({product, onAdd}) => {
 
     const handleInter = () => {
         setInputType('input')
-        
     }
+
     return (
         <div>
             {

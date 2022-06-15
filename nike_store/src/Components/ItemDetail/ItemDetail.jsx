@@ -70,24 +70,24 @@ const ItemDetail = ({product}) => {
                         <h3>{product.name}</h3>
                         <h4>{product.price} €</h4>
 
-                        <div className="colors">
-                            <p className='title'>colors:</p>
-                            <p className='listColor'>{concat(product.colors)}</p>
+                        <div className="colors infoclass">
+                            <p className='title infoclassTittle'>colors:</p>
+                            <p className='listColor infoclassValues'>{concat(product.colors)}</p>
                         </div>
 
-                        <div className="sizes">
-                            <p className='title'>sizes:</p>
-                            <p className='listSizes'>{concat(product.sizes)}</p>
+                        <div className="sizes infoclass">
+                            <p className='title infoclassTittle'>sizes:</p>
+                            <p className='listSizes infoclassValues'>{concat(product.sizes)}</p>
                         </div>
 
-                        <div className="Infocategory">
-                            <p className='title'>category:</p>
-                            <p className='listCategory'>{product.category}</p>
+                        <div className="Infocategory infoclass">
+                            <p className='title infoclassTittle'>category:</p>
+                            <p className='listCategory infoclassValues'>{product.category}</p>
                         </div>
                         
-                        <div className="gender">
-                            <p className='title'>gender:</p>
-                            <p className='listGender'>{product.gender}</p>
+                        <div className="gender infoclass">
+                            <p className='title infoclassTittle'>gender:</p>
+                            <p className='listGender infoclassValues'>{product.gender}</p>
                         </div>
                         
                         <Interchange product={product} onAdd = {onAdd} />

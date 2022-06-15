@@ -65,12 +65,17 @@ const CartContextProvider = ({ children }) => {
     }
 
     function deleteItem(id) {
-        const newCart = [...cartList]
-        let index = newCart.findIndex((el) => el.id === id)
-
-        newCart.splice(index, 1)
-
-        setCartList([...newCart])
+        if(cartList.length===1){
+            emptyCart()
+        }else{
+            
+            const newCart = [...cartList]
+            let index = newCart.findIndex((el) => el.id === id)
+    
+            newCart.splice(index, 1)
+    
+            setCartList([...newCart])
+        }
     }
 
     function emptyCart() {

@@ -19,7 +19,7 @@ const Item = ({product}) => {
 
     const cardNotify = () => toast.success('Added to cart!', {
         position: "top-right",
-        autoClose: 3500,
+        autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
@@ -29,7 +29,7 @@ const Item = ({product}) => {
 
     const favNotify = () => toast.info('Added to Favorite!', {
         position: "top-right",
-        autoClose: 3500,
+        autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,

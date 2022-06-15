@@ -36,3 +36,9 @@
     min-height: 40px;
     min-width: 200px;
 }
+
+@media (min-width: 1200px) {
+    .itemDetail .info .quantCont{
+        font-size: 1.7rem;
+    }
+}

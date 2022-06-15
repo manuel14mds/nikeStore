@@ -1,4 +1,4 @@
-.itemDetail {
+.itemDetailContainer .itemDetail {
     display: grid;
     grid-template-areas:
         "head head head head"
@@ -6,29 +6,28 @@
         "info info info info";
         
     grid-gap: 1px;
-
 }
 
 /* +++++++++++++++++++++++++++++++ HEAD */
-.itemDetail .item {
+.itemDetailContainer .itemDetail .item {
     border: black solid 4px;
     border-radius: 10px;
     text-align: start;
     width: 100vw;
     padding: 1rem;
 }
-.itemDetail .item h1{
+.itemDetailContainer .itemDetail .item h1{
     font-family: var(--title-font);
     margin: 0 !important;
     padding: 1rem;
 }
 
-.itemDetail .head {
+.itemDetailContainer .itemDetail .head {
     grid-area: head;
 }
 
 /* +++++++++++++++++++++++++++++++ IMG */
-.itemDetail .imgCont {
+.itemDetailContainer .itemDetail .imgCont {
     grid-area: imgCont;
 
     width: 100vw;
@@ -36,133 +35,87 @@
     display: grid;
     grid-template-columns:auto auto;
     gap: 1px;
-    background-color: gray;
 }
-.imgCont .itemImgCont {
+.itemDetailContainer .imgCont .itemImgCont {
     text-align: center;
     padding: 0;
 }
 
-.imgCont .itemImgCont1 {
+.itemDetailContainer .imgCont .itemImgCont1 {
     grid-column-start: 1;
     grid-column-end: 3;
     min-width: 150px;
     max-width: 500px;
 }
 
-.imgCont .itemImgCont2 {
+.itemDetailContainer .imgCont .itemImgCont2 {
     min-width: 75px;
     max-width: 250px;
 }
 
-.imgCont .itemImgCont3 {
+.itemDetailContainer .imgCont .itemImgCont3 {
     min-width: 75px;
     max-width: 250px;
 }
 
 
-.imgCont .itemImgCont1 img {
+.itemDetailContainer .imgCont .itemImgCont1 img {
     border-radius: 10px;
     width: 100%;
 }
 
-.imgCont .itemImgCont2 img {
+.itemDetailContainer .imgCont .itemImgCont2 img {
     border-radius: 10px;
     width: 100%;
 }
 
-.imgCont .itemImgCont3 img {
+.itemDetailContainer .imgCont .itemImgCont3 img {
     border-radius: 10px;
     width: 100%;
 }
 
 /* +++++++++++++++++++++++++++++++ INFO */
-.itemDetail .info {
+.itemDetailContainer .itemDetail .info {
     grid-area: info;
     padding: 1rem;
     width: 100vw;
 
 }
 
-.itemDetail .info h2{
+.itemDetailContainer .itemDetail .info h2{
     font-family: var(--title-font);
 }
-.itemDetail .info h3{
+.itemDetailContainer .itemDetail .info h3{
     font-size: 1.3rem;
     margin-bottom: 0;
 }
-.itemDetail .info h4{
+.itemDetailContainer .itemDetail .info h4{
     font-size: 1rem;
     color: rgb(206, 249, 141);
 }
 
-.itemDetail .info .colors{
+.itemDetailContainer .itemDetail .info .infoclass{
     display: flex;
     align-items: center;
 }
-.itemDetail .info .colors .title{
+.itemDetailContainer .itemDetail .info .infoclass .infoclassTittle{
     margin: 0rem 1rem 0rem 0rem;
     font-family: var(--title-font);
 }
-.itemDetail .info .colors .listColor{
+.itemDetailContainer .itemDetail .info .infoclass .infoclassValues{
     font-size: 0.8rem;
     padding: 0;
     margin: 0;
 }
 
-.itemDetail .info .sizes{
-    display: flex;
-    align-items: center;
-}
-.itemDetail .info .sizes .title{
-    margin: 0rem 1rem 0rem 0rem;
-    font-family: var(--title-font);
-
-}
-.itemDetail .info .sizes .listSizes{
-    font-size: 0.8rem;
-    padding: 0;
-    margin: 0;
-}
-
-.itemDetail .info .Infocategory{
-    display: flex;
-    align-items: center;
-}
-.itemDetail .info .Infocategory .title{
-    margin: 0rem 1rem 0rem 0rem;
-    font-family: var(--title-font);
-
-}
-.itemDetail .info .Infocategory .listCategory{
-    font-size: 0.8rem;
-    padding: 0;
-    margin: 0;
-}
-
-.itemDetail .info .gender{
-    display: flex;
-    align-items: center;
-    margin-bottom: 7px;
-}
-.itemDetail .info .gender .title{
-    margin: 0rem 1rem 0rem 0rem;
-    font-family: var(--title-font);
-
-}
-.itemDetail .info .gender .listGender{
-    font-size: 0.8rem;
-    padding: 0;
-    margin: 0 0 0 0;
-}
 
 
-.itemDetail .info .overView{
+.itemDetailContainer .itemDetail .info .overView{
     margin-top: 1rem;
 }
 
 @media (min-width: 500px) {
-    .itemDetail {
+    .itemDetailContainer .itemDetail {
         max-width: 1326px;
         grid-template-areas:
         "head head head head"
@@ -170,7 +123,42 @@
         "imgCont imgCont info info";
 
     }
-    .itemDetail .item {
+    .itemDetailContainer .itemDetail .item {
         width: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* +++++++++++++++++++++++++++++++ HEAD */
+    .itemDetailContainer .itemDetail .item h1{
+        font-size: 5rem;
+    }
+
+    /* +++++++++++++++++++++++++++++++ INFO */
+    .itemDetailContainer .itemDetail .info h2{
+        font-size: 4rem;
+    }
+    .itemDetailContainer .itemDetail .info h3{
+        font-size: 3rem;
+    }
+    .itemDetailContainer .itemDetail .info h4{
+        font-size: 2rem;
+        color: rgb(206, 249, 141);
+    }
+
+
+    .itemDetailContainer .itemDetail .info .infoclass .infoclassTittle{
+        font-size: 2rem;
+        margin: 0rem 1rem 0rem 0rem;
+    }
+    .itemDetailContainer .itemDetail .info .infoclass .infoclassValues{
+        font-size: 1.7rem;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .itemDetailContainer .itemDetail .info .overView{
+        font-size: 1.5rem;
     }
 }

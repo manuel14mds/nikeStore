@@ -1,4 +1,4 @@
-import { useEffect} from 'react'
+import { useEffect, useState} from 'react'
 
 import { useCartContext } from '../../Context/CartContext'
 
@@ -8,9 +8,14 @@ import "./CartWidget.css"
 
 const CartWidget = () => {
     const cartIco = <FontAwesomeIcon icon={faBagShopping} />
-    const{prodUnits, updateProductUnit, cartList} = useCartContext()
+    const{prodUnits, updateProductUnit, cartList, updateCartLocalStorage} = useCartContext()
+    const [render, setRender] = useState(true)
 
     useEffect(() => {
+        if(render){
+            updateCartLocalStorage()
+            setRender(false)
+        }
         updateProductUnit()
     }, [cartList])
 

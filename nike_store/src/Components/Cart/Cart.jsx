@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { addDoc, collection, getFirestore } from 'firebase/firestore'
@@ -10,10 +11,21 @@ import ItemCart from '../ItemCart/ItemCart'
 
 import './Cart.css'
 
+import { Button, Modal } from 'react-bootstrap'
+
 const Cart = () => {
     const { cartList, emptyCart, totalCart, total, stockDecrease } = useCartContext()
     const [empty, setEmpty] = useState(true)
     const [orderCode, setOrderCode] = useState('')
+
+    //modal forms engine
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    
+    const [showOrder, setShowOrder] = useState(false);
+    const handleCloseOrder = () => setShowOrder(false);
+    const handleShowOrder = () => setShowOrder(true);
 
     useEffect(() => {
         total()
@@ -48,7 +60,9 @@ const Cart = () => {
             }
             )
     }
-    
+
+
+
     return (
         <>
             <div className='cartContainer container-fluid'>
@@ -71,7 +85,7 @@ const Cart = () => {
                     <div className="total col-md-4">
                         <h3>total</h3>
                         <p>{totalCart.toFixed(2)} €</p>
-                        <button className='btn btn-lg bg-primary' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Shop Now</button>
+                        <Button type="button" variant="primary" onClick={handleShow}>Shop Now</Button>
                         <button onClick={emptyCart} className='btn bg-secondary'>Delete All</button>
                     </div>
                 </div>
@@ -86,11 +100,19 @@ const Cart = () => {
             </div>
             {
                 empty ?
-                <></>
-                :
-                <CartForm purchaseOrder={purchaseOrder} />
+                    <></>
+                    :
+                
+                    <>
+                        <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false}>
+                            <CartForm purchaseOrder={purchaseOrder} handleClose={handleClose} handleShowOrder={handleShowOrder} />
+                        </Modal> 
+                    </>
+            
             }
-            <CartFormOrderCode orderCode={orderCode} />
+            <Modal show={showOrder} onHide={handleCloseOrder} >
+                <CartFormOrderCode orderCode={orderCode} handleCloseOrder={handleCloseOrder} />
+            </Modal> 
         </>
     )
 }

@@ -62,7 +62,9 @@ const FavContextProvider = ({ children }) => {
     return (
         <FavContext.Provider value={
             {
-                favList, setFavStorage, getFavStorage, addFavorite, deleteFavorite, updateFavList, emptyFavList
+                favList, setFavStorage, getFavStorage, 
+                addFavorite, deleteFavorite, updateFavList, 
+                emptyFavList
             }}>
 
             {children}

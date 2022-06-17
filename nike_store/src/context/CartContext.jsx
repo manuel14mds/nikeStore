@@ -32,12 +32,13 @@ const CartContextProvider = ({ children }) => {
     }
 
     function addToCart(item) {
+
         if (cartList.length == 0) {
             setCartList([
                 ...cartList,
                 item
             ])
-
+            setCartStorage(cartList)
 
         } else { // there are products in cartList
 
@@ -46,6 +47,7 @@ const CartContextProvider = ({ children }) => {
                     ...cartList,
                     item
                 ])
+                setCartStorage(cartList)
 
             } else { // the product IS in cartList
 
@@ -60,26 +62,29 @@ const CartContextProvider = ({ children }) => {
                     }
                 })
                 setCartList(newArray)
+                setCartStorage(cartList)
             }
         }
+        updateProductUnit()
     }
 
     function deleteItem(id) {
         if(cartList.length===1){
             emptyCart()
         }else{
-            
             const newCart = [...cartList]
             let index = newCart.findIndex((el) => el.id === id)
     
             newCart.splice(index, 1)
     
             setCartList([...newCart])
+            setCartStorage(cartList)
         }
     }
 
     function emptyCart() {
         setCartList([])
+        setCartStorage([])
         setProdUnits(0)
         setTotalCart(0.0)
     }
@@ -119,15 +124,37 @@ const CartContextProvider = ({ children }) => {
                     }
                 })
                 setCartList(newArray)
+                setCartStorage(cartList)
                 updateProductUnit()
                 total()
         }
+    }
+
+    //Set data navigator localStorage
+    function setCartStorage(list){
+        localStorage.setItem("listCart", JSON.stringify(list))
+    }
+
+    //Get data navigator localStorage
+    function getCartStorage(){
+        let listStorage=JSON.parse(localStorage.getItem("listCart"))
+
+        if(listStorage == null){
+            return []
+        }
+        return listStorage
+    }
+
+    function updateCartLocalStorage(){
+        setCartList( getCartStorage())
     }
     
     return (
         <CartContext.Provider value={
             {
-                cartList, addToCart, emptyCart, prodUnits, deleteItem, totalCart, total, stockDecrease, updateProductUnit, counter
+                cartList, addToCart, emptyCart, prodUnits, 
+                deleteItem, totalCart, total, stockDecrease, 
+                updateProductUnit, counter, updateCartLocalStorage
             }}>
 
             {children}

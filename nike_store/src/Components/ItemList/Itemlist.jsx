@@ -1,21 +1,31 @@
 import { memo, useEffect, useState } from "react"
+import { collection, getDocs, getFirestore } from "firebase/firestore"
 
+import { useHelperContext } from "../../Context/HelperContext"
 import Item from "../Item/Item"
 import ItemLoading from "../Item/ItemLoading"
-import { useHelperContext } from "../../Context/HelperContext"
 
 import './ItemList.css'
 
-const Itemlist = (filter) => {
-    const {listProduct} = useHelperContext()
-
+const Itemlist = ({filter}) => {
+    const {listProduct, arrayFilter, updateProductList} = useHelperContext()
     const [loading, setLoading] = useState(true)
-    const list_2 = [1,2,3,4,5]
+    const list_2 = [...Array(10).keys()]
 
     useEffect(() => {
-        setTimeout(()=>{
+        if(!loading){
+            setLoading(true)
+        }
+
+        const db = getFirestore()
+        const queryCollection = collection(db, "products")
+        getDocs(arrayFilter(queryCollection, filter))
+        .then(resp => updateProductList(resp.docs.map(item =>({ id: item.id, ... item.data() }) )))
+        .catch((err)=> console.log(err))
+        .finally(() =>{ 
             setLoading(false)
-        }, 1000)
+        })
+
     }, [filter])
 
     return (

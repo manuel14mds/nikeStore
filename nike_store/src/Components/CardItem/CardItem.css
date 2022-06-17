@@ -3,11 +3,16 @@
     overflow-x: scroll;
     gap: 5px;
 }
+
 .cardItemContainer .cardItem{
     max-width: 11rem;
     min-width: 10rem;
     max-height: 21rem;
     border-radius: 5px;
+}
+.cardContainer .cardItemContainer .loading{
+    width: 9rem !important;
+    height: 20rem !important;
 }
 
 .cardItemContainer .cardItem .card-body .card-text{

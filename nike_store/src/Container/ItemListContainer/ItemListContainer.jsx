@@ -10,11 +10,7 @@ import './ItemListContainer.css'
 
 const ItemListContainer = () => {
     const{filter} = useParams()
-    const {updateProductList} = useHelperContext()
 
-    useEffect(() => {
-        updateProductList(filter)
-    }, [filter])
 
     return (
         <div className="ItemListContainer">

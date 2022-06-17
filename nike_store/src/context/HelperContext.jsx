@@ -10,48 +10,27 @@ const HelperContextProvider = ({ children }) => {
     const [product, setProduct] = useState({})
     const [listProduct, setListProduct] = useState([])
 
-
     //it receives an array and a kind of cartegory
-    //set the list of products filtered out
+    //returns a list of products filtered out
     function arrayFilter(quieryCollection, filter) {
 
         if (filter === "all") {
-            getDocs(quieryCollection)
-            .then(resp => setListProduct(resp.docs.map(item => ({ id: item.id, ...item.data() }))))
-            .catch((err) => console.log(err))
+            return(quieryCollection)
 
         } else if (filter === "men" || filter === "women") {
-            const quieryCollectionFilter =  query(quieryCollection, where('gender', 'in', [filter, 'unisex']))
-            getDocs(quieryCollectionFilter)
-            .then(resp => setListProduct(resp.docs.map(item =>({ id: item.id, ... item.data() }) )))
-            .catch((err)=> console.log(err))
+            return(query(quieryCollection, where('gender', 'in', [filter, 'unisex'])))
             
         } else if (filter === "children") {
-            const quieryCollectionFilter =  query(quieryCollection, where('gender', '==', filter))
-            getDocs(quieryCollectionFilter)
-            .then(resp => setListProduct(resp.docs.map(item =>({ id: item.id, ... item.data() }) )))
-            .catch((err)=> console.log(err))
+            return(query(quieryCollection, where('gender', '==', filter)))
 
         } else{
-            const quieryCollectionFilter =  query(quieryCollection, where('category', '==', filter))
-            getDocs(quieryCollectionFilter)
-            .then(resp => setListProduct(resp.docs.map(item =>({ id: item.id, ... item.data() }) )))
-            .catch((err)=> console.log(err))
+            return(query(quieryCollection, where('category', '==', filter)))
         }
     }
 
-    //receives a filter value
-    //update  the list of products
-    function updateProductList(filter) {
-
-        const db = getFirestore()
-        const quieryCollection = collection(db, "products")
-        arrayFilter(quieryCollection, filter)
-
-        /* getDocs(quieryCollection)
-            .then(resp => setListProduct(resp.docs.map(item => ({ id: item.id, ...item.data() }))))
-            .catch((err) => console.log(err)) */
-
+    //receives an products array and updates the listProduct
+    function updateProductList(list) {
+        setListProduct(list)
     }
 
     //receives a category name
@@ -116,7 +95,7 @@ const HelperContextProvider = ({ children }) => {
     return (
         <HelperContext.Provider value={
             {
-                tittleResource, findProduct, product, listProduct, updateProductList, updateNewlistProducts
+                tittleResource, findProduct, product, listProduct, updateProductList, arrayFilter
             }}>
 
             {children}

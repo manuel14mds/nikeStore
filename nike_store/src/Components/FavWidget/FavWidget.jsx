@@ -10,10 +10,15 @@ import './FavWidget.css'
 
 const heartIco = <FontAwesomeIcon icon={faHeart} />
 const FavWidget = () => {
-    const{favList} = useFavContext()
+    const{favList, updateFavList} = useFavContext()
     const [quantity, setquanty] = useState(0)
+    const [render, setRender] = useState(true)
 
     useEffect(() => {
+        if(render){
+            updateFavList()
+            setRender(false)
+        }
         setquanty(favList.length)
     },[favList])
     

@@ -13,14 +13,14 @@ const ItemLoading = () => {
     return (
         <div className="cardItem loading text-white bg-dark mb-3">
             <Card.Img variant="top" src={image} className="card-img-top"/>
-            <div className="card-body fw-bold">
+            <div className="card-body fw-bold" >
                 <h5 className="card-title text-start placeholder-glow">
                     <span className="placeholder text-start col-8"></span>
                 </h5>
                 <p className="card-text text-start placeholder-glow">
                 <span className="placeholder text-start col-6"></span>
                 </p>
-                <div className="botones d-flex flex-row">
+                <div className="buttons d-flex flex-row">
                     <Placeholder.Button variant="light" xs={6} />
                     <a href=""className="icon">{heartIco}</a>
                     <a href=""className="icon">{cartIco}</a>

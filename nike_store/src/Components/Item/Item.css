@@ -1,7 +1,14 @@
 .cardItem{
-    max-width: 9rem;
+    width: 9rem;
     height: 20rem;
     border-radius: 10px;
+}
+.cardContainer .cardItemContainer .loading{
+    width: 9rem;
+    height: 20rem;
+}
+.cardContainer .cardItemContainer .loading .card-img-top{
+    height: 57%;
 }
 .loading{
     width: 9rem !important;
@@ -43,18 +50,14 @@
 @media (min-width: 900px) {
 
     .cardItem{
-        max-width: 11rem;
+        width: 11rem;
         height: 23rem;
     }
     .cardItem .card-body .card-title{
         font-size: 1rem;
     }
     .cardItem .card-body .card-text{
-
         font-size: 0.8rem;
     }
-    .loading{
-        width: 11rem !important;
-        height: 22rem !important;
-    }
+    
 }

@@ -2,6 +2,8 @@
 import { createContext, useContext, useState } from "react";
 import { getFirestore, doc, getDoc, collection, getDocs, query, where } from 'firebase/firestore'
 
+import image from '../../assets/images/No_Product_Found.png'
+
 const HelperContext = createContext([])
 
 export const useHelperContext = () => useContext(HelperContext)
@@ -9,6 +11,18 @@ export const useHelperContext = () => useContext(HelperContext)
 const HelperContextProvider = ({ children }) => {
     const [product, setProduct] = useState({})
     const [listProduct, setListProduct] = useState([])
+
+    //product when it dont get any product from firebase
+    const pnf=({
+        "id":"nf", "category":"not found", "stock":"not found", "new":"not found",
+        "gender":"not found", "sizes":["not found" ], "price":"not found",
+        "colors":["not found"], "name":"product not found", 
+        "images":[
+            image,
+            image,
+            image
+        ], "description":"Your search did not match any product. Please try again!"
+    })
 
     //it receives an array and a kind of cartegory
     //returns a list of products filtered out
@@ -77,6 +91,9 @@ const HelperContextProvider = ({ children }) => {
         const dbQuery = doc(db, "products", id)
         getDoc(dbQuery)
             .then(resp => {
+                !resp.data()?
+                setProduct(pnf)
+                :
                 setProduct({ id: resp.id, ...resp.data() })
             })
             .catch(err => console.log(err))

@@ -1,8 +1,9 @@
 
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { addDoc, collection, getFirestore } from 'firebase/firestore'
 
+import { addDoc, collection, getFirestore } from 'firebase/firestore'
+import { Button, Modal } from 'react-bootstrap'
 
 import { useCartContext } from '../../Context/CartContext'
 import CartForm from '../CartForm/CartForm'
@@ -11,7 +12,6 @@ import ItemCart from '../ItemCart/ItemCart'
 
 import './Cart.css'
 
-import { Button, Modal } from 'react-bootstrap'
 
 const Cart = () => {
     const { cartList, emptyCart, totalCart, total, stockDecrease } = useCartContext()

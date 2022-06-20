@@ -34,21 +34,18 @@ const CartContextProvider = ({ children }) => {
     function addToCart(item) {
 
         if (cartList.length == 0) {
-            setCartList([
-                ...cartList,
-                item
-            ])
-            setCartStorage(cartList)
+            setCartList([...cartList, item])
+            setCartStorage([...cartList, item])
 
         } else { // there are products in cartList
 
             if (!cartList.some( product => product.id === item.id )) { // the product is NOT in cartList
+                let newlist=cartList
                 setCartList([
-                    ...cartList,
-                    item
+                    ...newlist, item
                 ])
-                setCartStorage(cartList)
 
+                setCartStorage([...newlist, item])
             } else { // the product IS in cartList
 
                 let newArray = cartList
@@ -62,7 +59,6 @@ const CartContextProvider = ({ children }) => {
                     }
                 })
                 setCartList(newArray)
-                setCartStorage(cartList)
             }
         }
         updateProductUnit()
@@ -114,7 +110,7 @@ const CartContextProvider = ({ children }) => {
     //increase or decrease per one(1) the items quantity
     function counter(item, number){
         if((item.count === 1 && number === -1) || (item.count === item.stock && number === 1)){
-            console.log('operacion invalida')
+            
         }else{
 
             let newArray = cartList

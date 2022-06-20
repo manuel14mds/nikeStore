@@ -9,12 +9,12 @@ import "./CartWidget.css"
 const CartWidget = () => {
     const cartIco = <FontAwesomeIcon icon={faBagShopping} />
     const{prodUnits, updateProductUnit, cartList, updateCartLocalStorage} = useCartContext()
-    const [render, setRender] = useState(true)
+    const [render, setRender] = useState(false)
 
     useEffect(() => {
-        if(render){
+        if(!render){
             updateCartLocalStorage()
-            setRender(false)
+            setRender(true)
         }
         updateProductUnit()
     }, [cartList])

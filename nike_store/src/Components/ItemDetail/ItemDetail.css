@@ -1,3 +1,8 @@
+.loading_container{
+    height: 45vh;
+    display: grid;
+    place-items:center;
+}
 .itemDetailContainer .itemDetail {
     display: grid;
     grid-template-areas:

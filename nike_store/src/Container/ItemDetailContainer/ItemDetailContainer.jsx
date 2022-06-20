@@ -1,6 +1,6 @@
 
 import { useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams} from 'react-router-dom'
 
 import { useHelperContext } from '../../Context/HelperContext'
 import ItemDetail from '../../Components/ItemDetail/ItemDetail'

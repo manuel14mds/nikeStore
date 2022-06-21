@@ -6,9 +6,9 @@ Welcome to Nike Store project!.
 I have developed this website as my final project for React Js course. I create it specifically for educational purposes. 
 Product images that are used in this website not are under my property. I only use them to create this academic project and do not benefit from it.
 
-<img src="assets/images/sample.gif" alt="NavigationDemo" width="600"/>
+<img src="nike_store/assets/images/sample.gif" alt="NavigationDemo" width="600"/>
 
-<img src="assets/images/sample_2.gif" alt="NavigationDemo2" width="250"/>
+<img src="nike_store/assets/images/sample_2.gif" alt="NavigationDemo2" width="250"/>
 
 
 

@@ -34,7 +34,7 @@ Used libraries
 
 
 ## = Deploy = 
-The project is deployed in [Netlify](https://www.netlify.com/).
+The project is deployed in [Netlify](https://nike-store-project.netlify.app/).
 
 ----------------------------------------------------------------------------
 
